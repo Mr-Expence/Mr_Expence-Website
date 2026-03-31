@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/Mr_Expence-Website/', 
   title: "Home",
   description: "The place for Mr_Expence's Projects",
   head: [
