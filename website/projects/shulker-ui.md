@@ -35,5 +35,5 @@ Changes the default shulker box GUI to a colouruful design that fits the shulker
 Requires OptiGUI to work
 <br><br><br>
 
-<img src="./shulker-ui/ui.png" width="600" alt="Shulker UI"><br><br>
+<img src="./ui.png" width="600" alt="Shulker UI"><br><br>
 </center>
