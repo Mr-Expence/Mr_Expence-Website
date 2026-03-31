@@ -1,0 +1,204 @@
+# Resource Pack Creation Wiki
+
+## Introduction
+
+This is the ultimate guide to resource pack creation. From changing textures to custom models, blockstates, entities and more, you'll become a master at resource pack creation. This guide will have a guide for Optifine and its alternatives.
+
+## FAQ
+
+**What is a resource pack?**
+
+A resource pack is a way to change the “assets” loaded into Minecraft. It is a way to change how the game looks, sounds and feels.
+
+**Are resource packs the same as texture packs?**
+
+They are the same but you can only use resource/texture packs in the resource packs folder after the 1.5.2 update.
+
+**Are they hard to make?**
+
+No, they are rather easy to do once you have an understanding of how Minecraft structures its assets folder.
+
+**Do I have to change every texture?**
+
+No, resource packs only change the changed assets in the folder and multiple resource packs can be stacked to create resource pack combos.
+
+**What programs do I need to make a resource pack?**
+
+You don't need much and can use the preinstalled apps but using apps can make the process of resource pack creation easier.
+
+**So what is a “plain” text editor?**
+
+A plain text editor is a text editor that has no fancy font's formatting like google docs or microsoft word. Notepad or Notepad++ are plain text editors that are simple to use.
+
+## Useful Links
+
+Here are some links which will be useful or needed to make a resource pack.
+
+## Base Texturepack
+
+[Resource Pack Asset Browser](https://www.blockbench.net/plugins/asset_browser)
+
+This is how we can get the assets and base texture pack for any version!
+
+## Essential Software
+
+You will need one from each of these catogories to make a resource pack.
+
+### Image Editors
+
+| Software | Price | OS | Notes |
+| --- | --- | --- | --- |
+| MS paint | free | Windows | no downloads |
+| [Lospec Editor](https://lospec.com/pixel-editor/app) | free | Web-Browser | no downloads + lospec palette integration |
+| [pixilart Editor](https://www.pixilart.com/draw) | free | Web-Browser | no downloads |
+| [Paint.NET](https://www.getpaint.net/download.html) | free | Windows | plugin support |
+| [Aseprite](https://aseprite.org/#buy) | $19.99, Free | Windows, macOS, Linux | high quality pixel art editor, scripts, themes |
+| [GNU image Manipulation Program](https://www.gimp.org/) (GIMP) | free | Windows | - |
+| [Photoshop](https://photoshop.adobe.com/)| free, $22.99, $19.99 | Web-Browser, Windows, MacOS | free on the web for 6 months |
+
+### Archival Tools
+
+Needed to unzip the Minecraft jar file and to zip your pack when it is done.
+
+| Software                           | Price      | OS                    | Notes                |
+|------------------------------------|------------|-----------------------|----------------------|
+| [7-Zip](https://www.7-zip.org/)    | free       | Windows, linux        | -                    |
+| [WinRAR](https://www.win-rar.com/) | free, paid | Windows, macOS, Linux | unlimited free trial |
+
+### Text Editor
+
+Used to edit the text files in your pack.
+
+| Software | Price | OS | Notes |
+| --- | --- | --- | --- |
+| [Visual Studio Code](https://code.visualstudio.com/) | free | windows, mac, linux | open source |
+| [notepad++](https://notepad-plus-plus.org/) | free | windows | beginner friendly |
+| [Visual Studio Code](https://code.visualstudio.com/) | free | windows, mac, linux | built on top of open source |
+| [VSCodium](https://vscodium.com/) | free | window, linux | open source binaries for vscode |
+
+### Useful software
+
+Depending on what you want to include in your pack, a program from the relevant category may be needed, or at least save a lot of frustration.
+
+| Software | About |
+| --- | --- |
+| [Blockbench](https://blockbench.net/) | A free program to create 3d models for Minecraft and similar games. |
+| [Mr. Crayfish’s Model Creator](https://mrcrayfish.com/tools?id=mc#downloads) | An alternative program for creating 3d Minecraft models. |
+
+### Texture/Resource Pack Converters
+
+Tools to convert texture & resource packs to newer versions.
+| Software | About |
+|----------|-------|
+| [Dinnerbone's Texture Pack Unstitcher Program (Direct Download)](http://assets.minecraft.net/unstitcher/unstitcher.jar) | A tool to convert texture packs to Minecraft version 1.5. |
+| [Flying-Sheep's Texture Pack Unstitcher Rewrite](https://github.com/flying-sheep/unstitcher/) | A rewrite of Dinnerbone's tool made by a community member. |
+| [TextureEnder made by Mojang (Direct Download)](http://s3.amazonaws.com/Minecraft.Download/utilities/TextureEnder.jar) | A tool made by Mojang to convert Texture Packs from 1.5 to resource packs. (also on GitHub) |
+| [Resource Pack Converter](https://www.planetminecraft.com/mod/minecraft-1-12-1-13-1-14-1-15-resource-pack-converter/) | A tool to convert resource packs to newer versions. |
+| [Java to Bedrock Resource Pack Converter](https://ozelot379.github.io/ConvertJavaTextureToBedrock/) | A tool to convert your java resource pack to bedrock. |
+
+### Other Software
+
+Not always needed, but useful to have sometimes.
+| Software | About |
+|----------|-------|
+| [Resource Pack Optimizer](https://github.com/PCelestia/optimise-resourcepack) | An optimization tool that compresses the image files to save space. |
+| [Quiver](https://github.com/DeflatedPickle/Quiver) | A resource pack creator and manager for Minecraft. |
+| [WinMerge](https://winmerge.org/?lang=en) | A useful tool to compare your pack to default Minecraft and see what you're missing and what files are the same as default to remove them. |
+| [Minecraft Sound Extractor](https://github.com/Ravbug/MCSoundsExtractorCPP) | This is for extracting the sound if you want to see how to structure the sound directory in your resource pack. |
+
+## Information and Resources
+
+A collection of useful info and resources.
+
+### Minecraft Wiki
+
+Useful Minecraf Wiki pages.
+
+| Minecraft Wiki Page Title | Description |
+| --- | --- |
+| [Wiki Page: Resource Packs](https://minecraft.gamepedia.com/Resource_Pack) | The official wiki on Minecraft resource packs, updated regularly per update/snapshot, documenting changes between versions. |
+| [Wiki Page: Creating a Resource Pack](https://minecraft.gamepedia.com/Tutorials/Creating_a_resource_pack) | Will be updated regularly per update/snapshot, documenting changes between versions. |
+| [Wiki Page: Texture Packs](https://minecraft.gamepedia.com/Texture_Pack) | Useful information on texture packs for Minecraft versions 1.6.0 and newer. |
+| [Wiki Page: Creating a Texture Pack](https://minecraft.gamepedia.com/Tutorials/Custom_texture_packs) | Has useful info on making texture packs for Minecraft 1.6.0 and older. |
+| [Wiki Page: Formatting codes](https://minecraft.gamepedia.com/Formatting_codes) | Useful reference when editing text files such as pack.mcmeta and credits.txt. |
+| [Wiki Page: Models](https://minecraft.gamepedia.com/Model) | Has a lot of useful info about blockstates and model files. |
+| [Wiki Page: Tint](https://minecraft.gamepedia.com/Tint) | Useful info about the grass and foliage color tinting. |
+
+### Other Guides
+
+an assortment of other guides with a lot of useful information in them.
+Title | About | Type
+–|–|–
+[A word about texture packs](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs/resource-pack-discussion/1256365-a-word-about-texturepacks)|A good read about myths surrounding texture/resource packs.|Minecraft Forums Thread
+[Animation in Resource Packs](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs/resource-pack-discussion/1256350-animation-in-resource-packs-a-minecraft-1-6)|A useful guide on animated block and item textures.|Minecraft Forums Thread
+[Making Alternate Textures Guide](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs/resource-pack-discussion/2209236-1-8-tutorial-alternate-textures-and-custom-models)|A useful guide for variant/alternate textures.|Minecraft Forums Thread
+[The All-Inclusive Guide to Texturing](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs/resource-pack-discussion/1256314-the-all-inclusive-guide-to-texturing)|A helpful guide to making texture packs, mostly useful for older versions of Minecraft before 1.5.|Minecraft Forums Thread
+[The All-Inclusive Guide to Texturing (Version 2)](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs/resource-pack-discussion/1256366-the-all-inclusive-updated-guide-to-texturing)|An updated version that has useful information on newer versions of Minecraft.|Minecraft Forums Thread
+[How To Make A Resource Pack video series by Uncle Jam](https://www.youtube.com/playlist?list=PLLl4D8G2NepWULG7fqAeBvpd1SOtP7pe8)|A good playlist of videos about making a resource pack. (Has a lot of useful info in it, just please do not copy the default Minecraft assets folder like he does. See common mistakes below.)|Youtube Video Playlist
+[Customizing Minecraft video series by How To Gurus](https://www.youtube.com/playlist?list=PLfp-NJt_DpgG2odTDbwjtXkdjdBgpSxng)|A great playlist with a lot of useful guides for making a resource pack.|Youtube Video Playlist
+
+### Other Documentation
+
+| Documentation | About |
+| --- | --- |
+| [Optifine Documentation](https://github.com/sp614x/optifine/tree/master/OptiFineDoc/doc) | The official documentation for Optifine, use it if you want advanced help on some of the features optifine provides for us! |
+
+## Places to find help and submit your pack
+
+Good places to go if you need help or want to submit your pack to be seen by the public.
+| Place | About |
+|-------|-------|
+| [Modrinth](https://modrinth.com/) | The number 1 place for minecraft content like resource packs. |
+| [Curseforge](https://www.curseforge.com/minecraft) | The older but still popular alternative to Modrinth |
+| [Planet Minecraft](https://www.planetminecraft.com/texture-packs/) | A good place to ask for help or post your pack. |
+
+## Useful Keybinds
+
+Here are some useful key binds I will mention in this guide!
+
+### Minecraft
+
+| Action | Keybind |
+| --- | --- |
+| F3 + T | Reload resources |
+| F3 + D | Clear Chat logs |
+| F1 | Toggle UI visiblity |
+
+### GIMP
+
+| Action | Keybind |
+| --- | --- |
+| Pencil | N |
+| Undo | Ctrl + Z |
+| Redo | Ctrl + Y |
+| Zoom | Ctrl + mouse wheel in and out |
+| Color picker | Ctrl + primary mouse click (only works when pencil/paintbrush is the selected tool) |
+| Pan | Hold the spacebar and drag the mouse. |
+
+### Paint.NET
+
+| Action | Keybind |
+| --- | --- |
+| Pencil | P |
+| Line Tool | O |
+| Pan | Hold the spacebar and left click and drag (alternatively press H to select the pan tool) |
+| Color picker | K |
+| Eraser | E |
+| Paint Bucket | F |
+| Shape tool | O, O (press O twice) |
+
+## Helpful Advice
+
+### General Advice
+
+Here are some quick advice:
+
+- Keep to one resolution like 16x16, or 32x32. Don't mix and match resolutions.
+- If you want your resource pack to look nice with your builds that look good in vanilla, use a similar colour palette.
+
+### Common mistakes
+
+Here are some common mistakes to avoid while making your texture pack.
+
+- Do not copy all the minecraft assets, copy the folder structure and add your made textures.
+- Make sure all the files are in the right place and named correctly.
