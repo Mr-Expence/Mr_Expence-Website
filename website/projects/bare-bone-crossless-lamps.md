@@ -19,6 +19,6 @@ next: false
 
 </div>
 
-![Particles](./bare-bone-crossless-lamps/bare-bone-crossless-lamps.png)
+![Icon](./bare-bone-crossless-lamps/bare-bone-crossless-lamps.png)
 
 </center>

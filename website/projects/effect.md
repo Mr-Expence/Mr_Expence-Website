@@ -19,6 +19,6 @@ next: false
 
 </div>
 
-![Particles](./effect/particles.png)
+![Particle](./effect/particles.png)
 
 </center>
