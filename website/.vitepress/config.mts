@@ -2,8 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/Mr_Expence-Website/', 
-  title: "Home",
+  title: "Mr_Expence",
   description: "The place for Mr_Expence's Projects",
   head: [
     ['link', { rel: 'icon', href: '/logo.png' }]
@@ -12,14 +11,14 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Wiki', link: '/wiki/intro' }
+      { text: 'Wiki', link: '/intro' }
     ],
 
     sidebar: [
       {
         text: 'Examples',
         items: [
-          { text: 'Intro', link: '/wiki/intro' },
+          { text: 'Intro', link: '/intro' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }

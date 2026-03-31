@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Resource Pack Creation Wiki
-      link: /wiki/intro
+      link: /intro
     - theme: alt
       text: Discord
       link: https://discord.gg/3kbz7edSa6
@@ -20,24 +20,24 @@ hero:
 features:
   - title: Flaming Swords
     details: Makes the Fire Aspect Enchantment show flames
-    link: /projects/flaming-swords
+    link: /flaming-swords
   - title: Shulker UI
     details: Makes the Shulker Box UI look nicer
-    link: /projects/shulker-ui
+    link: /shulker-ui
   - title: Mr_Expence's PvP Overlay
     details: My custom vanilla Pvp Overlay for Minecraft with blue cobwebs and other features
-    link: /projects/pvp-overlay
+    link: /pvp-overlay
   - title: Bare Bones Buttons
     details: Add the Bare Bone Buttons to the game and nothing else
-    link: /projects/bare-bone-buttons
+    link: /bare-bone-buttons
   - title: Cosmetics+
     details: Adds custom cosmetic models to the game
-    link: /projects/cosmetics
+    link: /cosmetics
   - title: Effect Particles
     details: Custom Particles
-    link: /projects/effect
+    link: /effect
   - title: Bare Bones Crossless Lamps
     details: Makes Crossless Lamps compatible with Bare Bones
-    link: /projects/bare-bone-crossless-lamps
+    link: /bare-bone-crossless-lamps
 ---
 
