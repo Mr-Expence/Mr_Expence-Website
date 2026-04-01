@@ -29,7 +29,8 @@ export default defineConfig({
       { icon: 'modrinth', link: 'https://modrinth.com/user/Mr_Expence' },
       { icon: 'curseforge', link: 'https://www.curseforge.com/members/mr_expence/projects' },
       { icon: 'discord', link: 'https://discord.gg/3kbz7edSa6' },
-      { icon: 'youtube', link: 'https://www.youtube.com/@Mr_Expence' }
+      { icon: 'youtube', link: 'https://www.youtube.com/@Mr_Expence' },
+      { icon: 'twitch', link: 'https://www.twitch.tv/mrexpence' }
     ]
   }
 })
