@@ -21,6 +21,31 @@ next: false
   View on Modrinth
 </a>
 
+<!-- Download Button -->
+
+<a id="download-btn" href="#" download 
+   style="display:inline-flex;align-items:center;gap:8px;text-decoration:none;color:#41b3fe;font-weight:600">
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#41b3fe">
+    <path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/>
+  </svg>
+  Download
+</a>
+
+<!-- Download Script -->
+
+<script>
+  if (typeof document !== 'undefined') {
+    // Replace fetch('https://api.modrinth.com/v2/project/ID/version')
+    fetch('https://api.modrinth.com/v2/project/EIwfJ4NS/version')
+      .then(response => response.json())
+      .then(versions => {
+        const latestVersion = versions[0];
+        const downloadUrl = latestVersion.files[0].url;
+        document.getElementById('download-btn').href = downloadUrl;
+      });
+  }
+</script>
+
 <a href="https://www.curseforge.com/minecraft/texture-packs/bare-bones-buttons" target="_blank" style="display:inline-flex;align-items:center;gap:8px;text-decoration:none;color:#f16436;font-weight:600">
   <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor">
     <path d="M18.326 9.2145S23.2261 8.4418 24 6.1882h-7.5066V4.4H0l2.0318 2.3576V9.173s5.1267-.2665 7.1098 1.2372c2.7146 2.516-3.053 5.917-3.053 5.917L5.0995 19.6c1.5465-1.4726 4.494-3.3775 9.8983-3.2857-2.0565.65-4.1245 1.6651-5.7344 3.2857h10.9248l-1.0288-3.2726s-7.918-4.6688-.8336-7.1127z"/>

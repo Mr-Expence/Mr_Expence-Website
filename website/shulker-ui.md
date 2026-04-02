@@ -5,14 +5,24 @@ prev: false
 next: false
 ---
 
+<!-- Removes Side Bars -->
+
 <center>
 
+<!-- Logo -->
+
 <img src="https://cdn.modrinth.com/data/4mbynavb/images/a945e3383475c3aa450d561a17137efe9f0370d3.png" width="700" alt="Shulker UI Logo"><br>
+
+<!-- Title -->
 
 ## Makes the Shulker Box UI look nicer
 <br>
 
+<!-- Download links -->
+
 <div style="display:inline-flex;gap:16px;flex-wrap:wrap">
+
+<!-- Modrinth -->
 
 <a href="https://modrinth.com/resourcepack/shulker-ui" target="_blank" style="display:inline-flex;align-items:center;gap:8px;text-decoration:none;color:#1bd96a;font-weight:600">
   <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor">
@@ -21,7 +31,8 @@ next: false
   View on Modrinth
 </a>
 
-<!-- Give the link an id so JavaScript can find it -->
+<!-- Download Button -->
+
 <a id="download-btn" href="#" download 
    style="display:inline-flex;align-items:center;gap:8px;text-decoration:none;color:#41b3fe;font-weight:600">
   <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#41b3fe">
@@ -30,8 +41,11 @@ next: false
   Download
 </a>
 
+<!-- Download Script -->
+
 <script>
   if (typeof document !== 'undefined') {
+    // Replace fetch('https://api.modrinth.com/v2/project/ID/version')
     fetch('https://api.modrinth.com/v2/project/4mbynavb/version')
       .then(response => response.json())
       .then(versions => {
@@ -42,6 +56,7 @@ next: false
   }
 </script>
 
+<!-- Curseforge -->
 
 <a href="https://www.curseforge.com/minecraft/texture-packs/shulker-ui" target="_blank" style="display:inline-flex;align-items:center;gap:8px;text-decoration:none;color:#f16436;font-weight:600">
   <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor">
@@ -52,10 +67,14 @@ next: false
 
 </div>
 
+<!-- Rest of Description -->
+
 Changes the default shulker box GUI to a colouruful design that fits the shulker box's colour
 
 Requires OptiGUI to work
 <br><br><br>
+
+<!-- Images -->
 
 <img src="./public/ui.png" width="600" alt="Shulker UI"><br><br>
 </center>

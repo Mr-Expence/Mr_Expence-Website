@@ -5,14 +5,24 @@ prev: false
 next: false
 ---
 
+<!-- Removes Side Bars -->
+
 <center>
+
+<!-- Title -->
 
 ## Makes the Fire Aspect Enchantment show flames
 <br>
 
+<!-- Video -->
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dpnUaPoQpOE?si=0qYLrl-Q_E8OOo2i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><br><br>
 
+<!-- Download links -->
+
 <div style="display:inline-flex;gap:16px;flex-wrap:wrap">
+
+<!-- Modrinth -->
 
 <a href="https://modrinth.com/resourcepack/flaming-swords" target="_blank" style="display:inline-flex;align-items:center;gap:8px;text-decoration:none;color:#1bd96a;font-weight:600">
   <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor">
@@ -21,7 +31,8 @@ next: false
   View on Modrinth
 </a>
 
-<!-- Give the link an id so JavaScript can find it -->
+<!-- Download Button -->
+
 <a id="download-btn" href="#" download 
    style="display:inline-flex;align-items:center;gap:8px;text-decoration:none;color:#41b3fe;font-weight:600">
   <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#41b3fe">
@@ -30,8 +41,11 @@ next: false
   Download
 </a>
 
+<!-- Download Script -->
+
 <script>
   if (typeof document !== 'undefined') {
+    // Replace fetch('https://api.modrinth.com/v2/project/ID/version')
     fetch('https://api.modrinth.com/v2/project/EcjQY7O3/version')
       .then(response => response.json())
       .then(versions => {
@@ -42,6 +56,7 @@ next: false
   }
 </script>
 
+<!-- Curseforge -->
 
 <a href="https://www.curseforge.com/minecraft/texture-packs/flaming-swords" target="_blank" style="display:inline-flex;align-items:center;gap:8px;text-decoration:none;color:#f16436;font-weight:600">
   <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor">
@@ -51,6 +66,8 @@ next: false
 </a>
 
 </div>
+
+<!-- Rest of Description -->
 
 This Resource pack changes the texture for swords when you enchant it with Fire Aspect.
 
@@ -66,6 +83,8 @@ You can toggle the glowing using [ResPackOpts](https://modrinth.com/mod/respacko
 
 If there is no animations try turning off `Animate Only Visible Textures` in the Video Settings 
 <br><br><br>
+
+<!-- Images -->
 
 <img src="https://cdn.modrinth.com/data/EcjQY7O3/images/70dcc47e7860c1707760ca2fcf62bc2d765519c7.png" width="600" alt="Flame Bow"><br><br>
 <img src="https://cdn.modrinth.com/data/EcjQY7O3/images/3737ca4784006ee1c70831472aa744299bbb3755.png" width="600" alt="Flame Bow Pulling"><br><br>
