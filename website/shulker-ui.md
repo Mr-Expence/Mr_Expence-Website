@@ -13,7 +13,7 @@ next: false
 
 <img src="https://cdn.modrinth.com/data/4mbynavb/images/a945e3383475c3aa450d561a17137efe9f0370d3.png" width="700" alt="Shulker UI Logo"><br>
 
-<!-- Title -->
+<!-- Summary -->
 
 ## Makes the Shulker Box UI look nicer
 <br>

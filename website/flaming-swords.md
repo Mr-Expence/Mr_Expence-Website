@@ -9,7 +9,7 @@ next: false
 
 <center>
 
-<!-- Title -->
+<!-- Summary -->
 
 ## Makes the Fire Aspect Enchantment show flames
 <br>

@@ -5,14 +5,24 @@ prev: false
 next: false
 ---
 
+<!-- Removes Side Bars -->
+
 <center>
 
-# Bare Bones Buttons
+<!-- Logo -->
+
+<img src="https://cdn.modrinth.com/data/EIwfJ4NS/images/c389080e371af1f15f8bf889a3665134e19d0a43.png" width="700" alt="Bare Bones Buttons Logo"><br>
+
+<!-- Summary -->
 
 ## Add the Bare Bone  Buttons to the game and nothing else
 <br>
 
+<!-- Download links -->
+
 <div style="display:inline-flex;gap:16px;flex-wrap:wrap">
+
+<!-- Modrinth -->
 
 <a href="https://modrinth.com/resourcepack/bare-bones-buttons" target="_blank" style="display:inline-flex;align-items:center;gap:8px;text-decoration:none;color:#1bd96a;font-weight:600">
   <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor">
@@ -46,6 +56,8 @@ next: false
   }
 </script>
 
+<!-- Curseforge -->
+
 <a href="https://www.curseforge.com/minecraft/texture-packs/bare-bones-buttons" target="_blank" style="display:inline-flex;align-items:center;gap:8px;text-decoration:none;color:#f16436;font-weight:600">
   <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor">
     <path d="M18.326 9.2145S23.2261 8.4418 24 6.1882h-7.5066V4.4H0l2.0318 2.3576V9.173s5.1267-.2665 7.1098 1.2372c2.7146 2.516-3.053 5.917-3.053 5.917L5.0995 19.6c1.5465-1.4726 4.494-3.3775 9.8983-3.2857-2.0565.65-4.1245 1.6651-5.7344 3.2857h10.9248l-1.0288-3.2726s-7.918-4.6688-.8336-7.1127z"/>
@@ -55,12 +67,16 @@ next: false
 
 </div>
 
+<!-- Rest of Description -->
+
 Adds simple buttons to minecraft from Bare Bones resource pack.
 
 
 
 No other changes are made to the game.
 <br><br><br>
+
+<!-- Images -->
 
 <img src="https://cdn.modrinth.com/data/EIwfJ4NS/images/6781724476aa41d2511d5f7062215ba442dacb67.png" width="600" alt="Main Menu"><br><br>
 <img src="https://cdn.modrinth.com/data/EIwfJ4NS/images/bca7c55d06f3653699155060403e57b7f55fecdf.png" width="600" alt="Server List"><br><br>
