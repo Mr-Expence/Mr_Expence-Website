@@ -58,31 +58,37 @@ You resource pack can have any of these folders.
 
 **models** - These are where the models are stored. Models can be named anything, existing models when be easily applied ingame, custom named models need to be applied in another way.
 
-**optifine** - (not pictured above) This is where you would put files for optifine support like connected textures.
+**optifine** - This is for a popular mod with resource pack customisation like connected textures or custom entity models.
 
-**particles** - These point Minecraft to the texture file for each particle effect.
+**particles** - This is where you point to the textures particles should use.
 
-**shaders** - The shaders for the old in-game ‘super secret settings’ button that have since been removed. Not modified by most resource packs.
+**shaders** - The built in shaders, not like iris/optifine shaders.
 
-**sounds** - (not pictured above) The sounds go into this folder but do not appear when you extract the Minecraft jar file as they are stored separately.
+**sounds** - Where the sound files are stored.
 
-**texts** - contains the text files for the credits, the end poem, and the title screen splashes.
+**texts** - Where the credits, end poem, and title screen splashes are.
 
-**textures** - this is where all the textures are stored, this is where you will do most of your work.
+**textures** - Where the textures are located at.
 
-**gpu_warnlist.json** - This is a default vanilla file you don’t need in your texture pack.
+The `models` and `textures` folder have subfolders.
 
-Two of these folders have sub folders, we will now go over those.
+```
+minecraft
+        ├───models
+        │   ├───block
+        │   └───item
+        └───textures
+            ├───block
+            └───item
+```
 
-models:
+Models:
 
-![Default Minecraft Models](https://www.notion.so/assets/resourcepackguide/images/structure/default-models.png)
+These are where the diffrent type of models go:
 
-These subfolders are pretty self-explanatory:
+**blocks** - Block models go in here
 
-**blocks** - block models go here
-
-**items** - item models go here
+**items** - Item models go in here
 
 textures:
 

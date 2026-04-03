@@ -83,7 +83,6 @@ Depending on what you want to include in your pack, a program from the relevant 
 | Software | About |
 | --- | --- |
 | [Blockbench](https://blockbench.net/) | A free program to create 3d models for Minecraft and similar games. |
-| [Mr. Crayfish’s Model Creator](https://mrcrayfish.com/tools?id=mc#downloads) | An alternative program for creating 3d Minecraft models. |
 | [Misode](https://misode.github.io/) | A free website to create json files. Has mod and datapack support. |
 
 ### Texture/Resource Pack Converters
