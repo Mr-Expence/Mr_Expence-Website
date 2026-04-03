@@ -134,31 +134,33 @@ textures
 └───trims
 ```
 
-###### **block** - This is the place for the block textures.
+###### **`block`** - This is the place for the block textures.
 
-###### **colormap** - This is for the colours of blocks like leaves and grass.
+###### **`colormap`** - This is for the colours of blocks like leaves and grass.
 
-###### **effect** - Contains the dither texture, which is used in the notch shading effect that has been removed from default Minecraft.
+###### **`effect`** - Contains the dither texture, which is used in the notch shading effect that has been removed from default Minecraft.
 
-###### **entity** - Contains the entitiy textures.
+###### **`entity`** - Contains the entitiy textures.
 
-###### **environment** - Has the textures for the sun, moon, clouds, rain and more.
+###### **`environment`** - Has the textures for the sun, moon, clouds, rain and more.
 
-###### **font** - Contains the font textures.
+###### **`font`** - Contains the font textures.
 
-###### **gui** - Where the Graphical user interface textures are.
+###### **`gui`** - Where the Graphical user interface textures are.
 
-###### **item** - This is where the item textures are located.
+###### **`item`** - This is where the item textures are located.
 
-###### **map** - Contains the map textures.
+###### **`map`** - Contains the map textures.
 
-###### **misc** - The random textures are stored here like the overlays.
+###### **`misc`** - The random textures are stored here like the overlays.
 
-###### **mob effect** - Contains all the status effect textures, like strength & speed.
+###### **`mob effect`** - Contains the effect icons..
 
-###### **painting** - Contains the painting textures.
+###### **`painting`** - Contains the painting textures.
 
-###### **particle** - contains all the particles, like explosions, anger, bubble, etc.
+###### **`particle`** - Has all the particle textures.
+
+###### **`trims`** - Has the trim textures.
 
 ## Making a New Pack
 
