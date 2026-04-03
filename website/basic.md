@@ -4,18 +4,18 @@
 
 Before we start creating a resource pack, Here is how it is formatted.
 
-<ul class="file-tree">
-  <li>📄 pack.mcmeta</li>
-  <li>📁 assets/
-    <ul>
-      <li>📁 minecraft/
-        <ul>
-          <li>📁 textures/</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
+pack_name
+├───pack.mcmeta
+├───pack.png
+│
+└───assets
+    └───minecraft
+        ├───models
+        │   ├───block
+        │   └───item
+        └───textures
+            ├───block
+            └───item
 
 This is the main folder of your resource pack; let’s go over the files inside it.
 
