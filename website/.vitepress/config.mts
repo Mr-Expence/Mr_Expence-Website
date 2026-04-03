@@ -14,7 +14,10 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/intro' }
     ],
-
+    outline: {
+      level: 'deep',  // show h2 and h3
+      label: 'On this page'  // optional, customizes the heading
+    }
     sidebar: [
       {
         text: 'Resource Pack Guide',
