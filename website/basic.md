@@ -19,9 +19,9 @@ pack name
 ```
 This is the main folder of your resource pack; let’s go over the files inside it.
 
-**pack.mcmeta** - This is how minecraft knows that this is a resource pack.
+**`pack.mcmeta`** - This is how minecraft knows that this is a resource pack.
 
-**pack.png** - This is the icon for the pack and is not needed for the pack to work.
+**`pack.png`** - This is the icon for the pack and is not needed for the pack to work.
 
 Lets go into the assets folder.
 
@@ -33,42 +33,54 @@ The minecraft folder structure is made up of 2 main folders, the `models` folder
 
 ```
 minecraft
-        ├───items
+        ├───atlases
         ├───blockstates
+        ├───equipment
         ├───font
+        ├───items
         ├───lang
         ├───models
         ├───optifine
         ├───particles
+        ├───post_effect
         ├───shaders
         ├───sounds
         ├───texts
-        └───textures
+        ├───textures
+        └───waypoint
 ```
 
 You resource pack can have any of these folders.
 
-**items** - This is how you change item textures depending on the state its in.
+**`atlases`** - This is how the compress multiple small textures into a spritesheet.
 
-**blockstates** - This tells minecraft what models should be applied to blocks when they are placed diffrent (have diffrent blockstates).
+**`blockstates`** - This tells minecraft what models should be applied to blocks when they are placed diffrent (have diffrent blockstates).
 
-**font** - This is where the `ascii` fonts are stored.
+**`equipment`** - This is where items that can go into an entities equipment slot go.
 
-**lang** - This is the translations folder. Changes what things are called.
+**`font`** - This is where the `ascii` fonts are stored.
 
-**models** - These are where the models are stored. Models can be named anything, existing models when be easily applied ingame, custom named models need to be applied in another way.
+**`items`** - This is how you change item textures depending on the state its in.
 
-**optifine** - This is for a popular mod with resource pack customisation like connected textures or custom entity models.
+**`lang`** - This is the translations folder. Changes what things are called.
 
-**particles** - This is where you point to the textures particles should use.
+**`models`** - These are where the models are stored. Models can be named anything, existing models when be easily applied ingame, custom named models need to be applied in another way.
 
-**shaders** - The built in shaders, not like iris/optifine shaders.
+**`optifine`** - This is for a popular mod with resource pack customisation like connected textures or custom entity models.
 
-**sounds** - Where the sound files are stored.
+**`particles`** - This is where you point to the textures particles should use.
 
-**texts** - Where the credits, end poem, and title screen splashes are.
+**`post_effect`** - This is where the effects of visual aspects go.
 
-**textures** - Where the textures are located at.
+**`shaders`** - The built in shaders, not like iris/optifine shaders.
+
+**`sounds`** - Where the sound files are stored.
+
+**`texts`** - Where the credits, end poem, and title screen splashes are.
+
+**`textures`** - Where the textures are located at.
+
+**`waypoint`** - The place for waypoint icons.
 
 The `models` and `textures` folder have subfolders.
 
@@ -79,16 +91,28 @@ minecraft
         │   └───item
         └───textures
             ├───block
-            └───item
+            ├───colormap
+            ├───effect
+            ├───entity
+            ├───environment
+            ├───font
+            ├───gui
+            ├───item
+            ├───map
+            ├───misc
+            ├───mob effect
+            ├───painting
+            ├───particle
+            └───trims
 ```
 
-Models:
+### `Models`:
 
 These are where the diffrent type of models go:
 
-**blocks** - Block models go in here
+**`blocks`** - Block models go in here
 
-**items** - Item models go in here
+**`items`** - Item models go in here
 
 textures:
 
