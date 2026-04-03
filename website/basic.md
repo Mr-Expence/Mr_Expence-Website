@@ -2,11 +2,20 @@
 
 ## Resource Pack Structure
 
-Before we start making a resource pack, I’m going to go over how a resource pack is structured.
+Before we start creating a resource pack, Here is how it is formatted.
 
-Pictured below is the resource pack template I provided the link to earlier:
-
-![Resource Pack Template Mane](https://www.notion.so/assets/resourcepackguide/images/structure/template-mane.png)
+<ul class="file-tree">
+  <li>📄 pack.mcmeta</li>
+  <li>📁 assets/
+    <ul>
+      <li>📁 minecraft/
+        <ul>
+          <li>📁 textures/</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
 
 This is the main folder of your resource pack; let’s go over the files inside it.
 
