@@ -12,7 +12,11 @@ next: false
 ## My custom vanilla Pvp Overlay for Minecraft with blue cobwebs and other features
 <br>
 
+<!-- Download links -->
+
 <div style="display:inline-flex;gap:16px;flex-wrap:wrap">
+
+<!-- Modrinth -->
 
 <a href="https://modrinth.com/resourcepack/mr_expences-pvp-overlay" target="_blank" style="display:inline-flex;align-items:center;gap:8px;text-decoration:none;color:#1bd96a;font-weight:600">
   <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor">
@@ -20,6 +24,33 @@ next: false
   </svg>
   View on Modrinth
 </a>
+
+<!-- Download Button -->
+
+<a id="download-btn" href="#" download 
+   style="display:inline-flex;align-items:center;gap:8px;text-decoration:none;color:#41b3fe;font-weight:600">
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#41b3fe">
+    <path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/>
+  </svg>
+  Download
+</a>
+
+<!-- Download Script -->
+
+<script>
+  if (typeof document !== 'undefined') {
+    // Replace fetch('https://api.modrinth.com/v2/project/ID/version')
+    fetch('https://api.modrinth.com/v2/project/sVLvrrSv/version')
+      .then(response => response.json())
+      .then(versions => {
+        const latestVersion = versions[0];
+        const downloadUrl = latestVersion.files[0].url;
+        document.getElementById('download-btn').href = downloadUrl;
+      });
+  }
+</script>
+
+<!-- Curseforge -->
 
 <a href="https://www.curseforge.com/minecraft/texture-packs/mr-expences-pvp-overlay" target="_blank" style="display:inline-flex;align-items:center;gap:8px;text-decoration:none;color:#f16436;font-weight:600">
   <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor">

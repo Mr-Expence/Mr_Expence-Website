@@ -60,7 +60,6 @@ next: false
 </a>
 
 </div>
-<br><br><br>
 
 ## IN VERY EARLY ALPHA
 
