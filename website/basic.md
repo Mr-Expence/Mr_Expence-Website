@@ -27,18 +27,9 @@ Lets go into the assets folder.
 
 The assets folder is where the file for the game is. If you want to support mods, add the mod directory name here.
 
-![Resource Pack Reamls Mod Example](https://www.notion.so/assets/resourcepackguide/images/structure/realms-mod-assets-example.png)
+We will only be covering the minecraft directory now.
 
-The `realms` folder holds textures for Minecraft Realms, and the `minelittlepony` folder is for textures for that mod.
-
-For now, we will only be covering textures for default Minecraft. Let’s go one level deeper into the minecraft folder:
-
-![Resource Pack Minecraft Empty](https://www.notion.so/assets/resourcepackguide/images/structure/template-mc-empty.png)
-
-That’s right, it’s empty. This is where you’re going to need to make folders for the areas of minecraft you will want to change.
-
-Let’s figure that out by looking at the default minecraft structure:
-
+The minecraft folder structure is made up of 2 main folders, the `models` folder and the `textures` folder. Both have a `block` and `item` subfolder for easier file management
 ![Default Minecraft Assets](https://www.notion.so/assets/resourcepackguide/images/structure/default-mc.png)
 
 Your resource pack can contain any of these folders. Let’s go over them:
