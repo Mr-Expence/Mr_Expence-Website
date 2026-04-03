@@ -29,18 +29,34 @@ The assets folder is where the file for the game is. If you want to support mods
 
 We will only be covering the minecraft directory now.
 
-The minecraft folder structure is made up of 2 main folders, the `models` folder and the `textures` folder. Both have a `block` and `item` subfolder for easier file management
-![Default Minecraft Assets](https://www.notion.so/assets/resourcepackguide/images/structure/default-mc.png)
+The minecraft folder structure is made up of 2 main folders, the `models` folder and the `textures` folder. Both have a `block` and `item` subfolder for easier file management.
 
-Your resource pack can contain any of these folders. Let’s go over them:
+```
+minecraft
+        ├───items
+        ├───blockstates
+        ├───font
+        ├───lang
+        ├───models
+        ├───optifine
+        ├───particles
+        ├───shaders
+        ├───sounds
+        ├───texts
+        └───textures
+```
 
-**blockstates** - These point Minecraft to the models used in-game for every block.
+You resource pack can have any of these folders.
 
-**font** - Contains information about the size and location of each letter in the font. Most font changes happen at the texture level, you probably won’t need this folder.
+**items** - This is how you change item textures depending on the state its in.
 
-**lang** - Contains the language files, this is where you put your custom language or edit the default one.
+**blockstates** - This tells minecraft what models should be applied to blocks when they are placed diffrent (have diffrent blockstates).
 
-**models** - These are the in-game models for every item and block, they tell Minecraft what shape it is and what texture to use for each side.
+**font** - This is where the `ascii` fonts are stored.
+
+**lang** - This is the translations folder. Changes what things are called.
+
+**models** - These are where the models are stored. Models can be named anything, existing models when be easily applied ingame, custom named models need to be applied in another way.
 
 **optifine** - (not pictured above) This is where you would put files for optifine support like connected textures.
 
