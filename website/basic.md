@@ -114,39 +114,51 @@ These are where the diffrent type of models go:
 
 **`items`** - Item models go in here
 
-### `textures`:
+### `Textures`:
 
-![Default Minecraft Textures](https://www.notion.so/assets/resourcepackguide/images/structure/default-textures.png)
+```
+textures
+├───block
+├───colormap
+├───effect
+├───entity
+├───environment
+├───font
+├───gui
+├───item
+├───map
+├───misc
+├───mob effect
+├───painting
+├───particle
+└───trims
+```
 
-Let’s go over the folders in the above image.
+###### **block** - This is the place for the block textures.
 
-**block** - All the block textures are here. (This is for versions 1.13+; For 1.12.2 and under use `blocks`)
+###### **colormap** - This is for the colours of blocks like leaves and grass.
 
-**colormap** - The grass and foliage colormaps are here.
+###### **effect** - Contains the dither texture, which is used in the notch shading effect that has been removed from default Minecraft.
 
-**effect** - Contains the dither texture, which is used in the notch shading effect that has been removed from default Minecraft.
+###### **entity** - Contains the entitiy textures.
 
-**entity** - Contains all the mob, NPC, and entity textures, like signs, boats, etc.
+###### **environment** - Has the textures for the sun, moon, clouds, rain and more.
 
-**environment** - Contains the sun, moon, rain, snow, clouds, and end sky textures.
+###### **font** - Contains the font textures.
 
-**font** - Contains the font textures.
+###### **gui** - Where the Graphical user interface textures are.
 
-**gui** - Contains all the UI textures, from menus, to the hot bar, containers and more.
+###### **item** - This is where the item textures are located.
 
-**item** - Contains all the item textures. (This is for versions 1.13+; For 1.12.2 and under use `items`)
+###### **map** - Contains the map textures.
 
-**map** - Contains the map icons and background textures.
+###### **misc** - The random textures are stored here like the overlays.
 
-**misc** - Contains misc textures, from enchantment glint to unknown server & pack.
+###### **mob effect** - Contains all the status effect textures, like strength & speed.
 
-**mob effect** - Contains all the status effect textures, like strength & speed.
+###### **painting** - Contains the painting textures.
 
-**models** - Contains the textures for the armor in the game.
-
-**painting** - Contains the painting textures.
-
-**particle** - contains all the particles, like explosions, anger, bubble, etc.
+###### **particle** - contains all the particles, like explosions, anger, bubble, etc.
 
 ## Making a New Pack
 
