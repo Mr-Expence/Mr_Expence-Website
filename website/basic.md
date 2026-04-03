@@ -54,49 +54,48 @@ minecraft
 
 You resource pack can have any of these folders.
 
-###### **`atlases`**
+**`atlases`**
  - This is how the compress multiple small textures into a spritesheet.
 
-###### **`blockstates`**
+**`blockstates`**
  - This tells minecraft what models should be applied to blocks when they are placed diffrent (have diffrent blockstates).
 
-###### **`equipment`**
+**`equipment`**
  - This is where items that can go into an entities equipment slot go.
 
-###### **`font`**
+**`font`**
  - This is where the `ascii` fonts are stored.
 
-###### **`items`**
+**`items`**
  - This is how you change item textures depending on the state its in.
 
-###### **`lang`**
+**`lang`**
  - This is the translations folder. Changes what things are called.
 
-###### **`models`**
+**`models`**
  - These are where the models are stored. Models can be named anything, existing models when be easily applied ingame, custom named models need to be applied in another way.
 
-###### **`optifine`**
+**`optifine`**
  - This is for a popular mod with resource pack customisation like connected textures or custom entity models.
 
-###### **`particles`**
+**`particles`**
  - This is where you point to the textures particles should use.
 
-###### **`post_effect`**
+**`post_effect`**
  - This is where the effects of visual aspects go.
 
-###### **`shaders`**
+**`shaders`**
  - The built in shaders, not like iris/optifine shaders.
 
-###### **`sounds`**
+**`sounds`**
  - Where the sound files are stored.
 
-###### **`texts`**
+**`texts`**
  - Where the credits, end poem, and title screen splashes are.
-
-###### **`textures`**
+**`textures`**
  - Where the textures are located at.
 
-###### **`waypoint`**
+**`waypoint`**
  - The place for waypoint icons.
 
 The `models` and `textures` folder have subfolders.
@@ -127,10 +126,10 @@ minecraft
 
 These are where the diffrent type of models go:
 
-###### **`blocks`**
+**`blocks`**
  - Block models go in here
 
-###### **`items`**
+**`items`**
  - Item models go in here
 
 ### `Textures`:
@@ -153,46 +152,46 @@ textures
 └───trims
 ```
 
-###### **`block`**
+**`block`**
  - This is the place for the block textures.
 
-###### **`colormap`**
+**`colormap`**
  - This is for the colours of blocks like leaves and grass.
 
-###### **`effect`**
+**`effect`**
  - Contains the dither texture, which is used in the notch shading effect that has been removed from default Minecraft.
 
-###### **`entity`**
+**`entity`**
  - Contains the entitiy textures.
 
-###### **`environment`**
+**`environment`**
  - Has the textures for the sun, moon, clouds, rain and more.
 
-###### **`font`**
+**`font`**
  - Contains the font textures.
 
-###### **`gui`**
+**`gui`**
  - Where the Graphical user interface textures are.
 
-###### **`item`**
+**`item`**
  - This is where the item textures are located.
 
-###### **`map`**
+**`map`**
  - Contains the map textures.
 
-###### **`misc`**
+**`misc`**
  - The random textures are stored here like the overlays.
 
-###### **`mob effect`**
+**`mob effect`**
  - Contains the effect icons..
 
-###### **`painting`**
+**`painting`**
  - Contains the painting textures.
 
-###### **`particle`**
+**`particle`**
  - Has all the particle textures.
 
-###### **`trims`**
+**`trims`**
  - Has the trim textures.
 
 ## Making a New Pack
