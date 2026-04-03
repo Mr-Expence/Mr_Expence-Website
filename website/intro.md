@@ -116,26 +116,11 @@ Useful Minecraf Wiki pages.
 
 | Minecraft Wiki Page Title | Description |
 | --- | --- |
-| [Wiki Page: Resource Packs](https://minecraft.gamepedia.com/Resource_Pack) | The official wiki on Minecraft resource packs, updated regularly per update/snapshot, documenting changes between versions. |
-| [Wiki Page: Creating a Resource Pack](https://minecraft.gamepedia.com/Tutorials/Creating_a_resource_pack) | Will be updated regularly per update/snapshot, documenting changes between versions. |
-| [Wiki Page: Texture Packs](https://minecraft.gamepedia.com/Texture_Pack) | Useful information on texture packs for Minecraft versions 1.6.0 and newer. |
-| [Wiki Page: Creating a Texture Pack](https://minecraft.gamepedia.com/Tutorials/Custom_texture_packs) | Has useful info on making texture packs for Minecraft 1.6.0 and older. |
-| [Wiki Page: Formatting codes](https://minecraft.gamepedia.com/Formatting_codes) | Useful reference when editing text files such as pack.mcmeta and credits.txt. |
-| [Wiki Page: Models](https://minecraft.gamepedia.com/Model) | Has a lot of useful info about blockstates and model files. |
-| [Wiki Page: Tint](https://minecraft.gamepedia.com/Tint) | Useful info about the grass and foliage color tinting. |
-
-### Other Guides
-
-an assortment of other guides with a lot of useful information in them.
-Title | About | Type
----|---|---
-[A word about texture packs](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs/resource-pack-discussion/1256365-a-word-about-texturepacks) | A good read about myths surrounding texture/resource packs. | Minecraft Forums Thread
-[Animation in Resource Packs](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs/resource-pack-discussion/1256350-animation-in-resource-packs-a-minecraft-1-6) | A useful guide on animated block and item textures. | Minecraft Forums Thread
-[Making Alternate Textures Guide](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs/resource-pack-discussion/2209236-1-8-tutorial-alternate-textures-and-custom-models) | A useful guide for variant/alternate textures. | Minecraft Forums Thread
-[The All-Inclusive Guide to Texturing](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs/resource-pack-discussion/1256314-the-all-inclusive-guide-to-texturing) | A helpful guide to making texture packs, mostly useful for older versions of Minecraft before 1.5. | Minecraft Forums Thread
-[The All-Inclusive Guide to Texturing (Version 2)](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/resource-packs/resource-pack-discussion/1256366-the-all-inclusive-updated-guide-to-texturing) | An updated version that has useful information on newer versions of Minecraft. | Minecraft Forums Thread
-[How To Make A Resource Pack video series by Uncle Jam](https://www.youtube.com/playlist?list=PLLl4D8G2NepWULG7fqAeBvpd1SOtP7pe8) | A good playlist of videos about making a resource pack. (Has a lot of useful info in it, just please do not copy the default Minecraft assets folder like he does. See common mistakes below.) | Youtube Video Playlist
-[Customizing Minecraft video series by How To Gurus](https://www.youtube.com/playlist?list=PLfp-NJt_DpgG2odTDbwjtXkdjdBgpSxng) | A great playlist with a lot of useful guides for making a resource pack. | Youtube Video Playlist
+| [Wiki Page: Resource Packs](https://minecraft.wiki/w/Resource_pack) | Useful information on resource packs for Minecraft versions 1.6.0 and newer. |
+| [Wiki Page: Creating a Resource Pack](https://minecraft.wiki/w/Tutorial:Custom_texture_packs) | Has useful info on making resource packs for Minecraft 1.6.0 and older. |
+| [Wiki Page: Formatting codes](https://minecraft.wiki/w/Formatting_codes) | Useful reference when editing text files such as pack.mcmeta and credits.txt. |
+| [Wiki Page: Models](https://minecraft.wiki/w/Model) | Has a lot of useful info about blockstates and model files. |
+| [Wiki Page: Color](https://minecraft.wiki/w/Color) | Useful info about the grass and foliage color tinting. |
 
 ### Other Documentation
 
