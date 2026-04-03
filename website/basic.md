@@ -114,7 +114,7 @@ These are where the diffrent type of models go:
 
 **`items`** - Item models go in here
 
-textures:
+### `textures`:
 
 ![Default Minecraft Textures](https://www.notion.so/assets/resourcepackguide/images/structure/default-textures.png)
 
