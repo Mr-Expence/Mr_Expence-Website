@@ -29,6 +29,8 @@ The assets folder is where the file for the game is. If you want to support mods
 
 We will only be covering the minecraft directory now.
 
+### Subfolders
+
 The minecraft folder structure is made up of 2 main folders, the `models` folder and the `textures` folder. Both have a `block` and `item` subfolder for easier file management.
 
 ```
