@@ -3,7 +3,7 @@
 ## Resource Pack Structure
 
 Before we start creating a resource pack, Here is how it is formatted.
-
+```
 pack name
 │   pack.mcmeta
 │   pack.png
@@ -16,20 +16,16 @@ pack name
         └───textures
             ├───block
             └───item
-
+```
 This is the main folder of your resource pack; let’s go over the files inside it.
 
 **pack.mcmeta** - This is how minecraft knows that this is a resource pack.
 
-**pack.png** - This file is the icon for your pack in the resource pack menu in Minecraft.
+**pack.png** - This is the icon for the pack and is not needed for the pack to work.
 
-**README.md** - This file is not needed but is included in all my packs to give information about the pack and credit everyone who works on it. This file can be deleted if not desired.
+Lets go into the assets folder.
 
-Now let’s go one folder deeper into the pack. Pictured below is the assets folder:
-
-![Resource Pack Template Assets](https://www.notion.so/assets/resourcepackguide/images/structure/template-assets.png)
-
-The assets folder holds all the textures for Minecraft. If you want to support Minecraft Realms or any mods, then you add the mod folder to the assets folder. Below is an example:
+The assets folder is where the file for the game is. If you want to support mods, add the mod directory name here.
 
 ![Resource Pack Reamls Mod Example](https://www.notion.so/assets/resourcepackguide/images/structure/realms-mod-assets-example.png)
 
