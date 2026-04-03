@@ -4,9 +4,9 @@
 
 Before we start creating a resource pack, Here is how it is formatted.
 
-pack_name
-├───pack.mcmeta
-├───pack.png
+pack name
+│   pack.mcmeta
+│   pack.png
 │
 └───assets
     └───minecraft
@@ -19,9 +19,7 @@ pack_name
 
 This is the main folder of your resource pack; let’s go over the files inside it.
 
-**LICENSE** - This file is not needed, but is included in all the packs I manage. It lets anyone know this resource pack has this license and in what ways they may use it. You can edit it to be for your pack or delete it entirely.
-
-**pack.mcmeta** - This file is needed for Minecraft to recognize your texture pack. This tells Minecraft what pack format your pack is (aka what version is it compatible with), what the description of your pack in-game is, and it also tells Minecraft if you have any custom language files (which we’ll get into later).
+**pack.mcmeta** - This is how minecraft knows that this is a resource pack.
 
 **pack.png** - This file is the icon for your pack in the resource pack menu in Minecraft.
 
