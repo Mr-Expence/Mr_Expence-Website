@@ -52,35 +52,50 @@ minecraft
 
 You resource pack can have any of these folders.
 
-**`atlases`** - This is how the compress multiple small textures into a spritesheet.
+###### **`atlases`**
+ - This is how the compress multiple small textures into a spritesheet.
 
-**`blockstates`** - This tells minecraft what models should be applied to blocks when they are placed diffrent (have diffrent blockstates).
+###### **`blockstates`**
+ - This tells minecraft what models should be applied to blocks when they are placed diffrent (have diffrent blockstates).
 
-**`equipment`** - This is where items that can go into an entities equipment slot go.
+###### **`equipment`**
+ - This is where items that can go into an entities equipment slot go.
 
-**`font`** - This is where the `ascii` fonts are stored.
+###### **`font`**
+ - This is where the `ascii` fonts are stored.
 
-**`items`** - This is how you change item textures depending on the state its in.
+###### **`items`**
+ - This is how you change item textures depending on the state its in.
 
-**`lang`** - This is the translations folder. Changes what things are called.
+###### **`lang`**
+ - This is the translations folder. Changes what things are called.
 
-**`models`** - These are where the models are stored. Models can be named anything, existing models when be easily applied ingame, custom named models need to be applied in another way.
+###### **`models`**
+ - These are where the models are stored. Models can be named anything, existing models when be easily applied ingame, custom named models need to be applied in another way.
 
-**`optifine`** - This is for a popular mod with resource pack customisation like connected textures or custom entity models.
+###### **`optifine`**
+ - This is for a popular mod with resource pack customisation like connected textures or custom entity models.
 
-**`particles`** - This is where you point to the textures particles should use.
+###### **`particles`**
+ - This is where you point to the textures particles should use.
 
-**`post_effect`** - This is where the effects of visual aspects go.
+###### **`post_effect`**
+ - This is where the effects of visual aspects go.
 
-**`shaders`** - The built in shaders, not like iris/optifine shaders.
+###### **`shaders`**
+ - The built in shaders, not like iris/optifine shaders.
 
-**`sounds`** - Where the sound files are stored.
+###### **`sounds`**
+ - Where the sound files are stored.
 
-**`texts`** - Where the credits, end poem, and title screen splashes are.
+###### **`texts`**
+ - Where the credits, end poem, and title screen splashes are.
 
-**`textures`** - Where the textures are located at.
+###### **`textures`**
+ - Where the textures are located at.
 
-**`waypoint`** - The place for waypoint icons.
+###### **`waypoint`**
+ - The place for waypoint icons.
 
 The `models` and `textures` folder have subfolders.
 
@@ -110,9 +125,9 @@ minecraft
 
 These are where the diffrent type of models go:
 
-**`blocks`** - Block models go in here
+###### **`blocks`** - Block models go in here
 
-**`items`** - Item models go in here
+###### **`items`** - Item models go in here
 
 ### `Textures`:
 
