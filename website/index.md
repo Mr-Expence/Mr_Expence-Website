@@ -11,7 +11,7 @@ hero:
     alt: Mr_Expence
   actions:
     - theme: brand
-      text: Resource Pack Creation Wiki
+      text: Resource Pack Creation Guide
       link: /intro
     - theme: alt
       text: Discord
@@ -39,5 +39,8 @@ features:
   - title: Bare Bones Crossless Lamps
     details: Makes Crossless Lamps compatible with Bare Bones
     link: /bare-bone-crossless-lamps
+  - title: Resource Pack Creation Guide
+    details: A guide to creating resource packs
+    link: /intro
 ---
 

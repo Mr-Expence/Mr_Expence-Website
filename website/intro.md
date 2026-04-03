@@ -1,4 +1,4 @@
-# Resource Pack Creation Wiki
+# Resource Pack Creation Guide
 
 ## Introduction
 
