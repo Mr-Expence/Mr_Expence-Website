@@ -20,7 +20,7 @@ export default defineConfig({
         text: 'Resource Pack Guide',
         items: [
           { text: 'Intro', link: '/intro' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Basic', link: '/basic' }
         ]
       }
     ],
