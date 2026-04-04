@@ -61,7 +61,9 @@ next: false
 
 </div>
 
-## <Badge type="danger" text="alpha" />
+<div class="big-badge">
+  <Badge type="danger" text="alpha" />
+</div>
 
 This pack adds a variety of custom cosmetic models to Minecraft, enhancing the visual experience without altering gameplay mechanics.
 

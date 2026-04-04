@@ -137,3 +137,9 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+.big-badge .VPBadge {
+  font-size: 1.2rem;
+  padding: 4px 12px;
+  vertical-align: middle;
+}
+
