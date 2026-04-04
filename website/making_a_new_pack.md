@@ -11,10 +11,13 @@ Now that you have a basic understanding of how a texture pack is structured, let
 | MacOS | `~/Library/Application Support/minecraft/resourcepacks` |
 | Linux | `~/.minecraft/resourcepacks` |
 
-This will be diffrent if you're using a third party launcher.
-You can also get to it by clicking `Open Pack Folder` in Minecraft:
+::: tip
+You can also get to it by clicking `Open Pack Folder` in Minecraft.
+:::
 
-![Open Resource Pack Folder](https://www.notion.so/assets/resourcepackguide/images/making-a-pack/open-rp-folder.png)
+::: warning
+This will be diffrent if you're using a third party launcher.
+:::
 
 ### Extracting the .jar File
 
