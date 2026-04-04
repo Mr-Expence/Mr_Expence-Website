@@ -1,6 +1,6 @@
 # Resource Pack Creation Guide
 
-## Making a New Pack
+## Making a Resource Pack
 
 ### Resource Pack Folder
 
