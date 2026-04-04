@@ -12,8 +12,6 @@ next: false
 ## Adds custom cosmetic models to the game.
 <br>
 
-<Badge type="danger" text="alpha" /> &nbsp;
-
 <!-- Download links -->
 
 <div style="display:inline-flex;gap:16px;flex-wrap:wrap">
@@ -63,7 +61,7 @@ next: false
 
 </div>
 
-## IN VERY EARLY ALPHA
+## <Badge type="danger" text="alpha" />
 
 This pack adds a variety of custom cosmetic models to Minecraft, enhancing the visual experience without altering gameplay mechanics.
 
