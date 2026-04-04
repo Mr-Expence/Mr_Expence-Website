@@ -5,11 +5,11 @@
 ### Resource Pack Folder
 
 Now that you have a basic understanding of how a texture pack is structured, let’s start making one. You’re going to want to find your resource pack folder; it can be found at:
-| Operating System | Location
-|– | –
-Windows| `%APPDATA%\.minecraft\resourcepacks`
-MacOS| `~/Library/Application Support/minecraft/resourcepacks`
-Linux| `~/.minecraft/resourcepacks`
+| Operating System | Location |
+|---|---|
+| Windows | `%APPDATA%\.minecraft\resourcepacks` |
+| MacOS | `~/Library/Application Support/minecraft/resourcepacks` |
+| Linux | `~/.minecraft/resourcepacks` |
 
 You can also get to it by clicking `Open Pack Folder` in Minecraft:
 
