@@ -14,13 +14,11 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/intro' }
     ],
+    siteTitle: 'Mr_Expence',
+    logo: '/logo.png',
     outline: {
       level: 'deep',  // show h2 and h3
       label: 'On this page'  // optional, customizes the heading
-    },
-    footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2019-present Evan You'
     },
     sidebar: [
       {
