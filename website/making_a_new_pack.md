@@ -4,7 +4,8 @@
 
 ### Resource Pack Folder
 
-Now that you have a basic understanding of how a texture pack is structured, let’s start making one. You’re going to want to find your resource pack folder; it can be found at:
+Now you want to find the location your resource pack needs to be. You can find it with the table below.
+
 | Operating System | Location |
 |---|---|
 | Windows | `%APPDATA%\.minecraft\resourcepacks` |
@@ -15,33 +16,42 @@ Now that you have a basic understanding of how a texture pack is structured, let
 You can also get to it by clicking `Open Pack Folder` in Minecraft.
 :::
 
-### Extracting the .jar File
+### Creating the folders
 
-Once this folder is open, you are going to want to extract the template and copy that folder here:
+Open blockbench and View the asset browser. Copy the folders without the files. This can be done my making the folders and naming them based on the asset browser.
 
-![Copy Template Here](https://www.notion.so/assets/resourcepackguide/images/making-a-pack/copy-template.png)
+You can alternatively follow this folder structure.
 
-Once it is copied over, you can rename the folder to what you want your resource pack to be named. I recommend you use dashes `-` or underscores `_` rather than spaces, but you don’t have to.
+```
+pack name
+└───assets
+    └───minecraft
+        ├───models
+        │   ├───block
+        │   └───item
+        └───textures
+            ├───block
+            └───item
+```
 
-Right-click the template folder and click `Open in new window`. Minimize the old window, as we will come back to it when we are done editing the template.
+### Making `pack.mcmeta`
 
-Inside, the template pack looks like this:
+Minecraft needs `pack.mcmeta` to know that your pack is a resource pack and not a folder. 
 
-![Template mane](https://www.notion.so/assets/resourcepackguide/images/making-a-pack/template-mane.png)
+Create the `pack.mcmeta` at the root of the pack, in the folder with the assets folder.
 
-Right-click the `LICENSE` file and click `Open with Brackets` or `Edit with Notepad++`.
-
-Read the license and if you plan on keeping it, change the Copyright at the top in this red box to your resource packs name:
-
-![License File](https://www.notion.so/assets/resourcepackguide/images/making-a-pack/license.png)
-
-If you are going to use it, save after editing and close Brackets. If you don’t want to use the License, delete the file.
-
-Now right-click the pack.mcmeta file and click `Open with Brackets`.
-
-![Pack Mcmeta](https://www.notion.so/assets/resourcepackguide/images/making-a-pack/pack-mcmeta.png)
-
-The pack format tells Minecraft what versions this pack will work with:
+```
+pack name
+│   pack.mcmeta
+└───assets
+    └───minecraft
+        ├───models
+        │   ├───block
+        │   └───item
+        └───textures
+            ├───block
+            └───item
+```
 
 Pack Format | Minecraft Versions
 :–: | :–:
