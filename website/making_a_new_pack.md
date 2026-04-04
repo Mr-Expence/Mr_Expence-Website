@@ -15,10 +15,6 @@ Now that you have a basic understanding of how a texture pack is structured, let
 You can also get to it by clicking `Open Pack Folder` in Minecraft.
 :::
 
-::: warning
-This will be diffrent if you're using a third party launcher.
-:::
-
 ### Extracting the .jar File
 
 Once this folder is open, you are going to want to extract the template and copy that folder here:

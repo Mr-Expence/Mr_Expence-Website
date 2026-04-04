@@ -38,6 +38,10 @@ Here are some links which will be useful or needed to make a resource pack.
 
 [Resource Pack Asset Browser](https://www.blockbench.net/plugins/asset_browser)
 
+::: warning
+Downloading all the assets is not recommended but rather using it as a guide for file locations.
+:::
+
 This is how we can get the assets and base texture pack for any version!
 
 ## Essential Software
