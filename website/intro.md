@@ -102,6 +102,10 @@ Depending on what you want to include in your pack, a program from the relevant 
 | [Blockbench](https://blockbench.net/) | A free program to create 3d models for Minecraft and similar games. |
 | [Misode](https://misode.github.io/) | A free website to create json files. Has mod and datapack support. |
 
+::: info
+These are a must for more complex resource packs.
+:::
+
 ### Texture/Resource Pack Converters
 
 Tools to convert texture & resource packs to newer versions.
