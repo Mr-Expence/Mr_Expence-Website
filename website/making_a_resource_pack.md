@@ -55,6 +55,8 @@ pack name
 
 **`pack.mcmeta`** requires two features. A description and a pack format.
 
+The pack format tells Minecraft which version your pack is for. You can find the format number in the table below.
+
 | Format | Releases |
 | --- | --- |
 | 1 | 1.6.1 – 1.8.9 |
@@ -82,11 +84,20 @@ pack name
 | 75.0 | 1.21.11 |
 | 84.0 | 26.1 |
 
-Change this to the version you will be making the pack for.
+::: tip
+You can set the max value at a really high value like `9999`.
+:::
 
-The description is what appears in the game on the resource pack selection screen, It can be customized with different colors and such. See the link above about formatting codes for how this works.
+The bare minimum  you can put in the `pack.mcmeta` is;
 
-Once you’ve made your changes, save and close Brackets.
+```json
+{
+  "pack": {
+    "description": "",
+    "pack_format": 84
+  }
+}
+```
 
 The last text file in this folder is `README.md`. If you plan on keeping it, open it in Brackets and edit it to be what you want. I like to have information about the pack and any relevant links for that specific pack and a credits listing everyone who has worked on it. This entire guide has been written in Markdown, [here](https://github.com/Love-and-Tolerance/Resource-Pack-Guide/raw/master/README.md) is the raw code. [Here](https://guides.github.com/features/mastering-markdown/) is a guide to Markdown. Having a README file is especially useful if you have your resource pack on GitHub, as it is what people see when they look at your repository.
 
