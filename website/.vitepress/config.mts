@@ -15,7 +15,7 @@ export default defineConfig({
       { text: 'Guide', link: '/intro' }
     ],
     siteTitle: 'Mr_Expence',
-    logo: '/logo.png',
+    logo: '/cat_logo.png',
     outline: {
       level: 'deep',  // show h2 and h3
       label: 'On this page'  // optional, customizes the heading
