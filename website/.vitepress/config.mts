@@ -24,7 +24,7 @@ export default defineConfig({
         items: [
           { text: 'Intro', link: '/intro' },
           { text: 'Resource Pack Structure', link: '/resource_pack_structure' },
-          { text: 'Making a Resource Pack', link: '/making_a_new_pack' }
+          { text: 'Making a Resource Pack', link: '/making_a_resource_pack' }
         ]
       }
     ],
