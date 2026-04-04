@@ -42,7 +42,7 @@ Create the `pack.mcmeta` at the root of the pack, in the folder with the assets 
 
 ```
 pack name
-│   pack.mcmeta
+├───pack.mcmeta
 └───assets
     └───minecraft
         ├───models
@@ -52,6 +52,8 @@ pack name
             ├───block
             └───item
 ```
+
+**`pack.mcmeta`** requires two features. A description and a pack format.
 
 | Format | Releases |
 | --- | --- |
