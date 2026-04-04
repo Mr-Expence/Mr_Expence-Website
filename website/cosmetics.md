@@ -12,7 +12,7 @@ next: false
 ## Adds custom cosmetic models to the game.
 <br>
 
-<Badge type="danger" text="alpha" />
+<Badge type="danger" text="alpha" /> &nbsp;
 
 <!-- Download links -->
 
