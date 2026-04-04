@@ -38,11 +38,11 @@ Here are some links which will be useful or needed to make a resource pack.
 
 [Resource Pack Asset Browser](https://www.blockbench.net/plugins/asset_browser)
 
+This is how we can get the assets and base texture pack for any version!
+
 ::: warning
 Downloading all the assets is not recommended but rather using it as a guide for file locations.
 :::
-
-This is how we can get the assets and base texture pack for any version!
 
 ## Essential Software
 
@@ -60,6 +60,10 @@ You will need one from each of these catogories to make a resource pack.
 | [GNU image Manipulation Program](https://www.gimp.org/) (GIMP) | free | Windows | - |
 | [Photoshop](https://photoshop.adobe.com/)| free, $22.99, $19.99 | Web-Browser, Windows, MacOS | free on the web for 6 months |
 
+::: info
+I use [Paint.NET](https://www.getpaint.net/download.html) as my texture editor.
+:::
+
 ### Archival Tools
 
 Needed to unzip the Minecraft jar file and to zip your pack when it is done.
@@ -68,6 +72,10 @@ Needed to unzip the Minecraft jar file and to zip your pack when it is done.
 |------------------------------------|------------|-----------------------|----------------------|
 | [7-Zip](https://www.7-zip.org/)    | free       | Windows, linux        | -                    |
 | [WinRAR](https://www.win-rar.com/) | free, paid | Windows, macOS, Linux | unlimited free trial |
+
+::: info
+I use [7-Zip](https://www.7-zip.org/).
+:::
 
 ### Text Editor
 
@@ -79,6 +87,11 @@ Used to edit the text files in your pack.
 | [notepad++](https://notepad-plus-plus.org/) | free | windows | beginner friendly |
 | [Visual Studio Code](https://code.visualstudio.com/) | free | windows, mac, linux | built on top of open source |
 | [VSCodium](https://vscodium.com/) | free | window, linux | open source binaries for vscode |
+| [Sublime Text](https://www.sublimetext.com/) | free | window, linux, mac | more advanced notepad++ |
+
+::: info
+I use [Visual Studio Code](https://code.visualstudio.com/) and [Sublime Text](https://www.sublimetext.com/).
+:::
 
 ### Useful software
 
