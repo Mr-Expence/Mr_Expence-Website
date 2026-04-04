@@ -60,7 +60,7 @@ You will need one from each of these catogories to make a resource pack.
 | [GNU image Manipulation Program](https://www.gimp.org/) (GIMP) | free | Windows | - |
 | [Photoshop](https://photoshop.adobe.com/)| free, $22.99, $19.99 | Web-Browser, Windows, MacOS | free on the web for 6 months |
 
-::: info
+::: info Mr_Expence's Tips
 I use [Paint.NET](https://www.getpaint.net/download.html) as my texture editor.
 :::
 
@@ -73,7 +73,7 @@ Needed to unzip the Minecraft jar file and to zip your pack when it is done.
 | [7-Zip](https://www.7-zip.org/)    | free       | Windows, linux        | -                    |
 | [WinRAR](https://www.win-rar.com/) | free, paid | Windows, macOS, Linux | unlimited free trial |
 
-::: info
+::: info Mr_Expence's Tips
 I use [7-Zip](https://www.7-zip.org/).
 :::
 
@@ -89,7 +89,7 @@ Used to edit the text files in your pack.
 | [VSCodium](https://vscodium.com/) | free | window, linux | open source binaries for vscode |
 | [Sublime Text](https://www.sublimetext.com/) | free | window, linux, mac | more advanced notepad++ |
 
-::: info
+::: info Mr_Expence's Tips
 I use [Visual Studio Code](https://code.visualstudio.com/) and [Sublime Text](https://www.sublimetext.com/).
 :::
 

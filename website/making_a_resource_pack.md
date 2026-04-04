@@ -88,7 +88,7 @@ The pack format tells Minecraft which version your pack is for. You can find the
 You can set the max value at a really high value like `9999`.
 :::
 
-The bare minimum  you can put in the `pack.mcmeta` is;
+The bare minimum  you can put in the `pack.mcmeta` is shown below.
 
 ```json
 {
@@ -98,6 +98,51 @@ The bare minimum  you can put in the `pack.mcmeta` is;
   }
 }
 ```
+
+I would recommend using this instead as it works for `1.21.5` and above.
+
+```json
+{
+  "pack": {
+    "description": "",
+    "pack_format": 84,
+    "min_format": 55,
+    "max_format": 9999
+  }
+}
+```
+
+
+::: tip Mr_Expence's Tips
+I use
+```json
+{
+  "pack": {
+    "description": {
+      "text": "Summary",
+      "type": "text",
+      "extra": [
+        {
+          "text": "\nBy: Name ",
+          "color": "blue"
+        },
+        {
+          "player": {
+            "name": "IGN"
+          },
+          "hat": true,
+          "color": "white"
+        }
+      ],
+      "color": "yellow"
+    },
+    "min_format": 55,
+    "max_format": 9999
+  }
+}
+```
+Replace Summary with your pack summary and change IGN to your Minecraft username and Name to the name you go by. This will Make your head appear.
+:::
 
 The last text file in this folder is `README.md`. If you plan on keeping it, open it in Brackets and edit it to be what you want. I like to have information about the pack and any relevant links for that specific pack and a credits listing everyone who has worked on it. This entire guide has been written in Markdown, [here](https://github.com/Love-and-Tolerance/Resource-Pack-Guide/raw/master/README.md) is the raw code. [Here](https://guides.github.com/features/mastering-markdown/) is a guide to Markdown. Having a README file is especially useful if you have your resource pack on GitHub, as it is what people see when they look at your repository.
 
