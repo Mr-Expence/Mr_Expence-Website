@@ -12,11 +12,11 @@ next: false
 ## Adds custom cosmetic models to the game.
 <br>
 
+<Badge type="danger" text="alpha" />
+
 <!-- Download links -->
 
 <div style="display:inline-flex;gap:16px;flex-wrap:wrap">
-
-<Badge type="danger" text="alpha" />
 
 <!-- Modrinth -->
 
