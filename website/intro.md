@@ -116,6 +116,7 @@ Tools to convert texture & resource packs to newer versions.
 | [TextureEnder made by Mojang (Direct Download)](http://s3.amazonaws.com/Minecraft.Download/utilities/TextureEnder.jar) | A tool made by Mojang to convert Texture Packs from 1.5 to resource packs. (also on GitHub) |
 | [Resource Pack Converter](https://www.planetminecraft.com/mod/minecraft-1-12-1-13-1-14-1-15-resource-pack-converter/) | A tool to convert resource packs to newer versions. |
 | [Java to Bedrock Resource Pack Converter](https://ozelot379.github.io/ConvertJavaTextureToBedrock/) | A tool to convert your java resource pack to bedrock. |
+| [Minecraft Title Converter](https://ewanhowell.com/tools/minecrafttitleconverter/) | A tool made to convert the new title format to the old style. |
 
 ### Other Software
 
@@ -123,9 +124,17 @@ Not always needed, but useful to have sometimes.
 | Software | About |
 |----------|-------|
 | [Resource Pack Optimizer](https://github.com/PCelestia/optimise-resourcepack) | An optimization tool that compresses the image files to save space. |
-| [Quiver](https://github.com/DeflatedPickle/Quiver) | A resource pack creator and manager for Minecraft. |
 | [WinMerge](https://winmerge.org/?lang=en) | A useful tool to compare your pack to default Minecraft and see what you're missing and what files are the same as default to remove them. |
 | [Minecraft Sound Extractor](https://github.com/Ravbug/MCSoundsExtractorCPP) | This is for extracting the sound if you want to see how to structure the sound directory in your resource pack. |
+
+### VSCode Extensions
+
+| Extension | About |
+|---|---|
+| [Datapack Helper Plus](https://marketplace.visualstudio.com/items?itemName=SPGoding.datapack-language-server) | Has syntax for minecraft files. |
+| [Datapack Icons](https://marketplace.visualstudio.com/items?itemName=EliW.datapack-icons) | Adds some nice icons that can make sure the folders are named correctly. |
+| [Luna Paint](https://marketplace.visualstudio.com/items?itemName=Tyriar.luna-paint) | Makes VSCode be able to edit textures. |
+| [Minecraft Color Highlighter](https://marketplace.visualstudio.com/items?itemName=ThijsVos.mc-color-highlighter) | Shows the color of texts in the lang files. |
 
 ## Information and Resources
 
