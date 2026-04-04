@@ -16,6 +16,8 @@ next: false
 
 <div style="display:inline-flex;gap:16px;flex-wrap:wrap">
 
+<Badge type="danger" text="alpha" />
+
 <!-- Modrinth -->
 
 <a href="https://modrinth.com/resourcepack/cosmetics+" target="_blank" style="display:inline-flex;align-items:center;gap:8px;text-decoration:none;color:#1bd96a;font-weight:600">

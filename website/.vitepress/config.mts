@@ -18,6 +18,10 @@ export default defineConfig({
       level: 'deep',  // show h2 and h3
       label: 'On this page'  // optional, customizes the heading
     },
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2019-present Evan You'
+    },
     sidebar: [
       {
         text: 'Resource Pack Guide',
