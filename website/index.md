@@ -26,16 +26,16 @@ features:
     link: /shulker-ui
   - title: Mr_Expence's PvP Overlay
     details: My custom vanilla Pvp Overlay for Minecraft with blue cobwebs and other features
-    link: /pvp-overlay
+    link: /mr_expences-pvp-overlay
   - title: Bare Bones Buttons
     details: Add the Bare Bone Buttons to the game and nothing else
-    link: /bare-bone-buttons
+    link: /bare-bones-buttons
   - title: Cosmetics+
     details: Adds custom cosmetic models to the game
     link: /cosmetics
-  - title: Effect Particles
+  - title: Alternate Effect Particles
     details: Custom Particles
-    link: /effect
+    link: /alternate-effect-particles
   - title: Bare Bones Crossless Lamps
     details: Makes Crossless Lamps compatible with Bare Bones
     link: /bare-bone-crossless-lamps

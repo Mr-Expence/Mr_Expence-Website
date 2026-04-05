@@ -3,6 +3,7 @@ aside: false
 sidebar: false
 prev: false
 next: false
+title: Bare Bones Crossless Lamps
 ---
 
 <center>

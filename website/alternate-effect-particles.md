@@ -3,6 +3,7 @@ aside: false
 sidebar: false
 prev: false
 next: false
+title: Alternate Effect Particles
 ---
 
 <center>

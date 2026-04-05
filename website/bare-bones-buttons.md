@@ -3,6 +3,7 @@ aside: false
 sidebar: false
 prev: false
 next: false
+title: Bare Bones Buttons
 ---
 
 <!-- Removes Side Bars -->
