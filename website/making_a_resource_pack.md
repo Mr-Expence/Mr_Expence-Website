@@ -1,6 +1,6 @@
 # Resource Pack Creation Guide
 
-## Making a Resource Pack
+## Creating the base
 
 ### Resource Pack Folder
 
@@ -144,13 +144,11 @@ I use
 Replace Summary with your pack summary and change IGN to your Minecraft username and Name to the name you go by. This will Make your head appear.
 :::
 
-The last text file in this folder is `README.md`. If you plan on keeping it, open it in Brackets and edit it to be what you want. I like to have information about the pack and any relevant links for that specific pack and a credits listing everyone who has worked on it. This entire guide has been written in Markdown, [here](https://github.com/Love-and-Tolerance/Resource-Pack-Guide/raw/master/README.md) is the raw code. [Here](https://guides.github.com/features/mastering-markdown/) is a guide to Markdown. Having a README file is especially useful if you have your resource pack on GitHub, as it is what people see when they look at your repository.
+## Changing the textures
 
-Once you are done with that, go into the assets folder, then into the minecraft folder. Right-click and hover over `New` then select `Folder`, name this folder `textures` like this:
+Inside the `textures/block` folder, create a new texture file. `.png` This can be done by opening your texture editor, creating a new texture, and save it as a `.png`.
 
-![Make Textures Folder](https://www.notion.so/assets/resourcepackguide/images/making-a-pack/make-textures-folder.png)
-
-Next, you are going to go into the textures folder and make a new folder inside it, called `block`, like this:
+Lets edit the dirt block. Enter you texture file and edit it as wished. Now save it with the name `dirt.png`. Enter the game, enable the resource pack, finaly look at it in game.
 
 ![Make Block Folder](https://www.notion.so/assets/resourcepackguide/images/making-a-pack/make-block-folder.png)
 
