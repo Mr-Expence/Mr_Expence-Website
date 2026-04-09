@@ -146,15 +146,15 @@ Replace Summary with your pack summary and change IGN to your Minecraft username
 
 ## Changing the textures
 
+### The block textures
+
 Inside the `textures/block` folder, create a new texture file. `.png` This can be done by opening your texture editor, creating a new texture, and save it as a `.png`.
 
-Lets edit the dirt block. Enter you texture file and edit it as wished. Now save it with the name `dirt.png`. Enter the game, enable the resource pack, finaly look at it in game.
+Lets edit the dirt block. Enter you texture file and edit it as wished. Now save it with the name `dirt.png`. Enter the game, enable the resource pack, finaly look at it in game. You can use the [Resource Pack Asset Browser](https://www.blockbench.net/plugins/asset_browser) to find the names of the textures and to grab the vanilla textures.
 
-![Make Block Folder](https://www.notion.so/assets/resourcepackguide/images/making-a-pack/make-block-folder.png)
+### The item textures
 
-After that, go into the block folder. Now we are going to minimize this window down and go extract the Minecraft .jar file.
-
-Open up the window you minimized earlier. In the resource pack folder, click the up arrow to get to the .minecraft directory:
+Changing the item textures is the same as changing the block textures. But this time place the file in the `textures/item` folder. You can name it `stick.png` as a test.
 
 ![Up To Minecraft Folder](https://www.notion.so/assets/resourcepackguide/images/extracting-the-jar/up-folder-to-dotmc.png)
 
