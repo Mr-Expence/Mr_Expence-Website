@@ -3,8 +3,6 @@ import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
-import BubbleGrid from './BubbleGrid.vue'
-
 export default {
   extends: DefaultTheme,
   Layout: () => {
@@ -13,6 +11,6 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    app.component('BubbleGrid', BubbleGrid)
+    // ...
   }
 } satisfies Theme
