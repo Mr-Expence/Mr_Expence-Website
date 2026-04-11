@@ -1,34 +1,35 @@
 <template>
   <div class="bubble-page">
     <div class="grid">
-      <div
+      
         v-for="(bubble, i) in bubbles"
         :key="i"
         class="bubble"
+        :href="bubble.href"
         :style="{ '--delay': `${i * 0.04}s` }"
       >
+        <img :src="bubble.logo" :alt="bubble.label" class="bubble-logo" />
         <span class="bubble-label">{{ bubble.label }}</span>
         <span class="bubble-sub">{{ bubble.sub }}</span>
-      </div>
     </div>
   </div>
 </template>
 
 <script setup>
 const bubbles = [
-  { label: 'Getting Started', sub: 'Installation & setup' },
-  { label: 'Resource Packs', sub: 'Textures & models' },
-  { label: 'Datapacks', sub: 'Commands & logic' },
-  { label: 'Enchantments', sub: 'Custom levels' },
-  { label: 'Dialogs', sub: '1.21.6+ UI system' },
-  { label: 'CIT', sub: 'Custom item textures' },
-  { label: 'OptiFine', sub: 'Compat & features' },
-  { label: 'Modrinth', sub: 'Publishing guide' },
-  { label: 'CurseForge', sub: 'Upload workflow' },
-  { label: 'Planet Minecraft', sub: 'Submission tips' },
-  { label: 'Shulker UI', sub: 'Pack reference' },
-  { label: 'Flaming Swords', sub: 'Pack reference' },
-  // add as many as you want
+  {
+    label: 'Modrinth',
+    sub: 'Publishing guide',
+    href: '/modrinth',
+    logo: '/logos/modrinth.svg',
+  },
+  {
+    label: 'CurseForge',
+    sub: 'Upload workflow',
+    href: '/curseforge',
+    logo: '/logos/curseforge.svg',
+  },
+  // ...
 ]
 </script>
 
@@ -51,8 +52,9 @@ const bubbles = [
   padding: 1.25rem 1rem;
   display: flex;
   flex-direction: column;
-  gap: 0.3rem;
-  cursor: pointer;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
   transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
   animation: pop-in 0.3s ease both;
   animation-delay: var(--delay);
@@ -61,7 +63,13 @@ const bubbles = [
 .bubble:hover {
   border-color: var(--vp-c-brand-1);
   transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.bubble-logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
 }
 
 .bubble-label {
@@ -73,6 +81,7 @@ const bubbles = [
 .bubble-sub {
   font-size: 0.78rem;
   color: var(--vp-c-text-2);
+  text-align: center;
 }
 
 @keyframes pop-in {
