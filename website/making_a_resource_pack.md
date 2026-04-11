@@ -155,31 +155,3 @@ Lets edit the dirt block. Enter you texture file and edit it as wished. Now save
 ### The item textures
 
 Changing the item textures is the same as changing the block textures. But this time place the file in the `textures/item` folder. You can name it `stick.png` as a test.
-
-![Up To Minecraft Folder](https://www.notion.so/assets/resourcepackguide/images/extracting-the-jar/up-folder-to-dotmc.png)
-
-Once inside your .minecraft folder, you will want to go into the versions’ folder:
-
-![Into Versions Folder](https://www.notion.so/assets/resourcepackguide/images/extracting-the-jar/versions.png)
-
-Once inside, you will see a folder for each Minecraft version you have installed. You will want to go into the folder for the version you are making the resource pack for. We will be using 1.16.4 for this guide:
-
-![1.16.4 Folder](https://www.notion.so/assets/resourcepackguide/images/extracting-the-jar/1.16.4.png)
-
-Once inside you are going to see the Minecraft .jar file. This is where all the default assets are for Minecraft:
-
-![Jar File](https://www.notion.so/assets/resourcepackguide/images/extracting-the-jar/jar-file.png)
-
-You are going to want to extract it. If using 7-Zip, right-click the .jar file and hover over the 7-Zip submenu, then click `Extract to 1.16.4\`.
-
-Wait a few seconds for it to finish, then go into the folder it made:
-
-![Inside Extracted Jar](https://www.notion.so/assets/resourcepackguide/images/extracting-the-jar/jar-extracted.png)
-
-Most of these files are pointless to you. The only thing we care about is the `assets` folder at the top; go into it:
-
-![Default Assets Folder](https://www.notion.so/assets/resourcepackguide/images/extracting-the-jar/default-assets.png)
-
-Starting to look familiar? Go into the `minecraft` folder:
-
-![Default Minecraft](https://www.notion.so/assets/resourcepackguide/images/extracting-the-jar/default-mc.png)
