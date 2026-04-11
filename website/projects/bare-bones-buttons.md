@@ -12,7 +12,7 @@ title: Bare Bones Buttons
 
 <!-- Logo -->
 
-<img src="https://cdn.modrinth.com/data/EIwfJ4NS/images/c389080e371af1f15f8bf889a3665134e19d0a43.png" width="700" alt="Bare Bones Buttons Logo"><br>
+<img src="../public/bare-bones-buttons/logo.png" width="700" alt="Bare Bones Buttons Logo"><br>
 
 <!-- Summary -->
 
@@ -79,6 +79,6 @@ No other changes are made to the game.
 
 <!-- Images -->
 
-<img src="https://cdn.modrinth.com/data/EIwfJ4NS/images/6781724476aa41d2511d5f7062215ba442dacb67.png" width="600" alt="Main Menu"><br><br>
-<img src="https://cdn.modrinth.com/data/EIwfJ4NS/images/bca7c55d06f3653699155060403e57b7f55fecdf.png" width="600" alt="Server List"><br><br>
+<img src="../public/bare-bones-buttons/main.png" width="600" alt="Main Menu"><br><br>
+<img src="../public/bare-bones-buttons/server.png" width="600" alt="Server List"><br><br>
 </center>

@@ -8,7 +8,7 @@ title: Cosmetics+
 
 <center>
 
-<img src="https://cdn.modrinth.com/data/ShPJVAhs/images/be160525ea839deb95921e4597fe7f349d447d1c.png" width="700" alt="Cosmetics+ Logo"><br>
+<img src="../public/cosmetics/thumbnail.png" width="700" alt="Cosmetics+ Logo"><br>
 
 ## Adds custom cosmetic models to the game.
 <br>

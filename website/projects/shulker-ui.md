@@ -12,7 +12,7 @@ title: Shulker UI
 
 <!-- Logo -->
 
-<img src="https://cdn.modrinth.com/data/4mbynavb/images/a945e3383475c3aa450d561a17137efe9f0370d3.png" width="700" alt="Shulker UI Logo"><br>
+<img src="../public/shulker-ui/logo.png" width="700" alt="Shulker UI Logo"><br>
 
 <!-- Summary -->
 

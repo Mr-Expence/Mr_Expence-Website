@@ -8,7 +8,7 @@ title: Mr_Expence's PvP Overlay
 
 <center>
 
-<img src="https://cdn.modrinth.com/data/sVLvrrSv/images/9490456ed60e2368e4d610cb0543f1858c057e84.png" width="700" alt="Mr_Expence's PvP Overlay Logo"><br>
+<img src="../public/mr_expences-pvp-overlay/logo.png" width="700" alt="Mr_Expence's PvP Overlay Logo"><br>
 
 ## My custom vanilla Pvp Overlay for Minecraft with blue cobwebs and other features
 <br>
@@ -107,13 +107,13 @@ Sword enchantments (Fire Aspect and Knockback)
 3D mace enchantments (Breach and Density)
 <br><br><br>
 
-<img src="https://cdn.modrinth.com/data/sVLvrrSv/images/61d8a6f184dbb7e170980c606df1db63c520c4b1.png" width="600" alt="Blue Fire Aspect Sword"><br><br>
-<img src="https://cdn.modrinth.com/data/sVLvrrSv/images/4c7d93f8005ae832ae162f92f94681143c26b5e8.png" width="600" alt="Small Fishing Bobber"><br><br>
-<img src="https://cdn.modrinth.com/data/sVLvrrSv/images/75222bd81663fdfbe1c08ff0ed77cca8c2ab5865.png" width="600" alt="Low Fire"><br><br>
-<img src="https://cdn.modrinth.com/data/sVLvrrSv/images/140a71832240da7b481ad3bc5187af962a489a7e.png" width="600" alt="Fire Aspect Sword"><br><br>
-<img src="https://cdn.modrinth.com/data/sVLvrrSv/images/d4e729cec778886d01694452501c502b251e7081.png" width="600" alt="Knockback Sword"><br><br>
-<img src="https://cdn.modrinth.com/data/sVLvrrSv/images/38751da387ca23c8f7e604053b4fba515f7f192e.png" width="600" alt="3D Mace Enchantment"><br><br>
-<img src="https://cdn.modrinth.com/data/sVLvrrSv/images/8bdbbfc546c6d143d3ca5ba0069598d077daeb99.png" width="600" alt="Totem Pop Effect"><br><br>
-<img src="https://cdn.modrinth.com/data/sVLvrrSv/images/4fb41827c8e6f2e5131806be7280e06454c1054b.png" width="600" alt="Alternate Totem of Undying"><br><br>
-<img src="https://cdn.modrinth.com/data/sVLvrrSv/images/f562b2b6e1857286ad669739bc68b964f8284d1d.png" width="600" alt="High Visibility Webs"><br><br>
+<img src="../public/mr_expences-pvp-overlay/blue_fire_sword.png" width="600" alt="Blue Fire Aspect Sword"><br><br>
+<img src="../public/mr_expences-pvp-overlay/bobber.png" width="600" alt="Small Fishing Bobber"><br><br>
+<img src="../public/mr_expences-pvp-overlay/fire.png" width="600" alt="Low Fire"><br><br>
+<img src="../public/mr_expences-pvp-overlay/fire_sword.png" width="600" alt="Fire Aspect Sword"><br><br>
+<img src="../public/mr_expences-pvp-overlay/knockback_sword.png" width="600" alt="Knockback Sword"><br><br>
+<img src="../public/mr_expences-pvp-overlay/mace_one.png" width="600" alt="3D Mace Enchantment"><br><br>
+<img src="../public/mr_expences-pvp-overlay/pop.png" width="600" alt="Totem Pop Effect"><br><br>
+<img src="../public/mr_expences-pvp-overlay/totem.png" width="600" alt="Alternate Totem of Undying"><br><br>
+<img src="../public/mr_expences-pvp-overlay/webs.png" width="600" alt="High Visibility Webs"><br><br>
 </center>
