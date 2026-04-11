@@ -155,3 +155,20 @@ Lets edit the dirt block. Enter you texture file and edit it as wished. Now save
 ### The item textures
 
 Changing the item textures is the same as changing the block textures. But this time place the file in the `textures/item` folder. You can name it `stick.png` as a test.
+
+## Animating textures
+
+All blocks, items, and entities can be animated.
+
+To animate a texture with each frame lasting for 2 ticks (0.1 seconds) use this.
+```json
+{
+  "animation": {
+    "frametime": 2
+  }
+}
+```
+The `frametime` is how long the frame will last in ticks
+:::tip Misode
+[Texture Metadata Genorator](https://misode.github.io/assets/texture-meta/)
+:::
