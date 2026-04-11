@@ -169,6 +169,23 @@ To animate a texture with each frame lasting for 2 ticks (0.1 seconds) use this.
 }
 ```
 The `frametime` is how long the frame will last in ticks
+
+You can also choose what frames get displayed in any order.
+```json
+{
+  "animation": {
+    "frametime": 2,
+    "frames": [
+      1,
+      2,
+      0,
+      2
+    ]
+  }
+}
+```
+You can reuse frames with this. Remember frame 0 is the first frame.
+
 :::tip Misode
 [Texture Metadata Genorator](https://misode.github.io/assets/texture-meta/)
 :::
