@@ -36,9 +36,7 @@ pack name
 
 ### Making `pack.mcmeta`
 
-Minecraft needs `pack.mcmeta` to know that your pack is a resource pack and not a folder. 
-
-Create the `pack.mcmeta` at the root of the pack, in the folder with the assets folder.
+Minecraft needs `pack.mcmeta` to know that your pack is a resource pack and not a folder. Create the `pack.mcmeta` at the root of the pack, in the folder with the assets folder. 
 
 ```
 pack name

@@ -12,7 +12,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/intro' }
+      { text: 'Guide', link: '/guide/intro' }
     ],
     siteTitle: 'Mr_Expence',
     logo: '/cat_logo.png',
@@ -24,10 +24,10 @@ export default defineConfig({
       {
         text: 'Resource Pack Guide',
         items: [
-          { text: 'Intro', link: '/intro' },
-          { text: 'Structure', link: '/structure' },
-          { text: 'Textures', link: '/textures' },
-          { text: 'Models', link: '/models' }
+          { text: 'Intro', link: '/guide/intro' },
+          { text: 'Structure', link: '/guide/structure' },
+          { text: 'Textures', link: '/guide/textures' },
+          { text: 'Models', link: '/guide/models' }
         ]
       }
     ],

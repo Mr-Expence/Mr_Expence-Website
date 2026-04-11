@@ -77,5 +77,5 @@ Requires OptiGUI to work
 
 <!-- Images -->
 
-<img src="./public/ui.png" width="600" alt="Shulker UI"><br><br>
+<img src="../public/ui.png" width="600" alt="Shulker UI"><br><br>
 </center>

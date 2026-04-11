@@ -209,7 +209,7 @@ Here are some useful key binds I will mention in this guide!
 Here are some quick advice:
 
 - Keep to one resolution like 16x16, or 32x32. Don't mix and match resolutions.
-- If you want your resource pack to look nice with your builds that look good in vanilla, use a similar colour palette.
+- If you want your resource pack to look nice with your builds that look good in vanilla, use a similar color palette.
 
 ### Common mistakes
 
