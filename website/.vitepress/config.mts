@@ -12,7 +12,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/intro' }
+      { text: 'Guide', link: '/guide/intro' },
+      { text: 'Projects', link: '/projects' }
     ],
     siteTitle: 'Mr_Expence',
     logo: '/cat_logo.png',
