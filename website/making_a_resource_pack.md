@@ -170,5 +170,5 @@ To animate a texture with each frame lasting for 2 ticks (0.1 seconds) use this.
 ```
 The `frametime` is how long the frame will last in ticks
 :::tip [Misode](https://misode.github.io/assets/texture-meta/)
- 
+&nbsp;
 :::
