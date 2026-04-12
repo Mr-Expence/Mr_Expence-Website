@@ -11,7 +11,7 @@ hero:
     alt: Mr_Expence
   actions:
     - theme: brand
-      text: Resource Pack Creation Guide
+      text: Guide
       link: /guide/intro
     - theme: brand
       text: Projects
