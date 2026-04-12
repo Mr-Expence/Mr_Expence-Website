@@ -13,6 +13,9 @@ hero:
     - theme: brand
       text: Resource Pack Creation Guide
       link: /guide/intro
+    - theme: brand
+      text: Projects
+      link: /projects
     - theme: alt
       text: Discord
       link: https://discord.gg/3kbz7edSa6
