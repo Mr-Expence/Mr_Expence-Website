@@ -1,3 +1,7 @@
+---
+title: Introduction
+---
+
 # Resource Pack Creation Guide
 
 ## Introduction

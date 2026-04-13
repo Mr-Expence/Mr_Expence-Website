@@ -1,3 +1,7 @@
+---
+title: Structure
+---
+
 # Resource Pack Creation Guide
 
 ## Resource Pack Structure

@@ -1,3 +1,7 @@
+---
+title: Models
+---
+
 # Resource Pack Creation Guide
 
 ## Creating Models
