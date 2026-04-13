@@ -21,7 +21,8 @@ export default defineConfig({
       level: 'deep',  // show h2 and h3
       label: 'On this page'  // optional, customizes the heading
     },
-    sidebar: [
+    sidebar: {
+      '/guide/': [
       {
         text: 'Resource Pack Guide',
         items: [
@@ -32,6 +33,26 @@ export default defineConfig({
         ]
       }
     ],
+    '/python/': [
+      {
+        text: 'Python Tutorial',
+        items: [
+          { text: 'Setup', link: '/python/setup' },
+          { text: 'Variables', link: '/python/variables' },
+          { text: 'Strings', link: '/python/strings' },
+          { text: 'Operators', link: '/python/operators' },
+          { text: 'Conditionals', link: '/python/conditionals' },
+          { text: 'Loops', link: '/python/loops' },
+          { text: 'Functions', link: '/python/functions' },
+          { text: 'Lists', link: '/python/lists' },
+          { text: 'Dictionaries', link: '/python/dictionaries' },
+          { text: 'Files', link: '/python/files' },
+          { text: 'Errors', link: '/python/errors' },
+          { text: 'Modules', link: '/python/modules' }
+        ]
+      }
+    ]
+  },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Mr-Expence' },
