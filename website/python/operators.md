@@ -88,7 +88,10 @@ print(health == max_health)  # False
 print(health != 0)           # True
 ```
 
-> ⚠️ **Common mistake:** `=` assigns a value. `==` *compares* two values. Don't mix them up.
+::: warning Common mistake
+ `=` assigns a value. `==` *compares* two values. Don't mix them up.
+:::
+
 
 ```python
 x = 5       # assigns 5 to x
