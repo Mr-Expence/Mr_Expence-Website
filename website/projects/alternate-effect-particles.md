@@ -7,7 +7,7 @@ title: Alternate Effect Particles
 ---
 
 <center>
-# <img src="../public/alternate-effect-particles/effect-logo.png" width="600" alt="Logo"><br><br>
+<img src="../public/alternate-effect-particles/effect-logo.png" width="600" alt="Logo"><br><br>
 
 ## Effect Particles from some SMP videos
 <br>
