@@ -177,4 +177,3 @@ Nothing stops you from changing them, but the naming signals to anyone reading t
 
 ---
 
-**Next chapter → [Strings](/python/03-strings)**

@@ -213,4 +213,4 @@ player = {
 
 ---
 
-**Next chapter → [Files & I/O](/python/10-files)**
+

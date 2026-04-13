@@ -248,4 +248,3 @@ print(b)         # [1, 2, 3, 4]
 
 ---
 
-**Next chapter → [Dictionaries](/python/09-dictionaries)**

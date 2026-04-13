@@ -270,4 +270,3 @@ These look intimidating at first but they're very common in real Python code. Re
 
 ---
 
-**Next chapter → [Functions](/python/07-functions)**

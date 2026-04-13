@@ -297,4 +297,3 @@ print(f"New ELO: {new_elo}")  # New ELO: 1221 (approx)
 
 ---
 
-**Next chapter → [Lists](/python/08-lists)**

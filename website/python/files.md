@@ -247,4 +247,4 @@ Shulker UI: v1.3
 
 ---
 
-**Next chapter → [Error Handling](/python/11-errors)**
+

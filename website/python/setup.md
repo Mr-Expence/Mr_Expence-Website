@@ -141,4 +141,3 @@ The `>>>` is Python waiting for your input. This is great for quickly testing sm
 
 Now that Python is running, let's learn how to store and work with information.
 
-**Next chapter → [Variables & Data Types](/python/02-variables)**

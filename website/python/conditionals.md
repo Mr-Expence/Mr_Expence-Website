@@ -220,4 +220,4 @@ else:
 
 ---
 
-**Next chapter → [Loops](/python/06-loops)**
+

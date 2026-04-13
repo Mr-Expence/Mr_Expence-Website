@@ -197,4 +197,3 @@ result = (2 + 3) * 4    # 20
 
 ---
 
-**Next chapter → [If / Elif / Else](/python/05-conditionals)**

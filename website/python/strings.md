@@ -219,4 +219,3 @@ print("C:\\Users\\Zac")
 
 ---
 
-**Next chapter → [Operators & Comparisons](/python/04-operators)**

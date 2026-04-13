@@ -281,4 +281,3 @@ From here, the path forward is: **build things**. Pick a small project — a fil
 
 ---
 
-*← [Error Handling](/python/11-errors) | [Back to index →](/python/)*
