@@ -13,7 +13,8 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/intro' },
-      { text: 'Projects', link: '/projects' }
+      { text: 'Projects', link: '/projects' },
+      { text: 'Python', link: '/python/setup' }
     ],
     siteTitle: 'Mr_Expence',
     logo: '/cat_logo.png',

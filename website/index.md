@@ -17,8 +17,8 @@ hero:
       text: Projects
       link: /projects
     - theme: alt
-      text: Discord
-      link: https://discord.gg/3kbz7edSa6
+      text: Python
+      link: /python/setup
 
 features:
   - title: Flaming Swords
