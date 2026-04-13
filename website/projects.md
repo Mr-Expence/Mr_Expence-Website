@@ -22,4 +22,4 @@ title: Projects
 <br><br>
 [![Bare Bones Buttons Lamps](./public/bare-bone-crossless-lamps/bare-bone-crossless-lamps-logo.png)](./projects/bare-bone-crossless-lamps)
 <br><br>
-<center>
+</center>
