@@ -30,7 +30,7 @@ export default defineConfig({
         items: [
           { text: 'Intro', link: '/guide/intro' },
           { text: 'Structure', link: '/guide/structure' },
-          { text: 'Pack Setup', link: '/guide/pack-setup' },
+          { text: 'Pack Setup', link: '/guide/pack_setup' },
           { text: 'Textures', link: '/guide/textures' },
           { text: 'Models', link: '/guide/models' }
         ]
