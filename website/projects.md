@@ -6,6 +6,8 @@ next: false
 title: Projects
 ---
 
+<center>
+
 [![Flaming Swords](./public/flaming-swords/logo.png)](./projects/flaming-swords)
 <br>
 [![Shulker UI](./public/shulker-ui/logo.png)](./projects/shulker-ui)
@@ -20,3 +22,4 @@ title: Projects
 <br><br>
 [![Bare Bones Buttons Lamps](./public/bare-bone-crossless-lamps/bare-bone-crossless-lamps-logo.png)](./projects/bare-bone-crossless-lamps)
 <br><br>
+<center>

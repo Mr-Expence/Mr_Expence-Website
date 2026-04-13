@@ -12,9 +12,10 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/intro' },
+      { text: 'Resource Pack Guide', link: '/guide/intro' },
       { text: 'Projects', link: '/projects' },
-      { text: 'Python', link: '/python/setup' }
+      { text: 'Python Guide', link: '/python/setup' },
+      { text: 'Codeforces Problem Picker', link: '/problem-picker' }
     ],
     siteTitle: 'Mr_Expence',
     logo: '/cat_logo.png',
@@ -54,6 +55,9 @@ export default defineConfig({
       }
     ]
   },
+  search: {
+      provider: 'local'
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Mr-Expence' },

@@ -24,6 +24,9 @@ async function roll(min, max) {
 }
 </script>
 
+<center>
+
+
 # Problem Picker
 
 <div style="display:flex;gap:10px;align-items:flex-end;flex-wrap:wrap;margin:1.5rem 0">
@@ -45,3 +48,5 @@ async function roll(min, max) {
     🎲 Random Problem
   </button>
 </div>
+
+<center>
