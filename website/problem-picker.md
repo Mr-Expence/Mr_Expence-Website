@@ -23,7 +23,11 @@ async function roll(min, max) {
 }
 </script>
 
+<center>
+
 # Problem Picker
+
+</center>
 
 <div style="display:flex;gap:10px;align-items:flex-end;flex-wrap:wrap;margin:1.5rem 0;justify-content:center">
   <div>
