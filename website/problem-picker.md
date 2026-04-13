@@ -27,7 +27,7 @@ async function roll(min, max) {
 
 # Problem Picker
 
-Get a random problem from (Codeforces)[https://codeforces.com/problemset].
+Get a random problem from [Codeforces](https://codeforces.com/problemset).
 
 </center>
 
