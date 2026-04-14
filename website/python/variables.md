@@ -1,4 +1,4 @@
-# Chapter 2 — Variables & Data Types
+# Variables & Data Types
 
 ## What's a variable?
 

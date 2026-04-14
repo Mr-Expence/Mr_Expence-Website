@@ -1,4 +1,6 @@
-# Chapter 1 — What is Python & Setting Up
+# What is Python & Setting Up
+
+## Made by AI for myself
 
 ## What even is Python?
 

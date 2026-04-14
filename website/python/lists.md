@@ -1,4 +1,4 @@
-# Chapter 8 — Lists
+# Lists
 
 A list is an **ordered collection of items**. It can hold any mix of values — strings, numbers, booleans, even other lists.
 

@@ -1,4 +1,4 @@
-# Chapter 10 — Files & I/O
+# Files & I/O
 
 Reading and writing files is how Python interacts with the outside world — loading config, saving data, processing logs, generating output. You'll use it constantly.
 

@@ -15,7 +15,7 @@ export default defineConfig({
       { text: 'Resource Pack Guide', link: '/guide/intro' },
       { text: 'Projects', link: '/projects' },
       { text: 'Python Guide', link: '/python/setup' },
-      { text: 'Codeforces Problem Picker', link: '/problem-picker' }
+      { text: 'Codeforces Problem Picker', link: '/python/problems' }
     ],
     siteTitle: 'Mr_Expence',
     logo: '/cat_logo.png',
@@ -51,7 +51,8 @@ export default defineConfig({
           { text: 'Dictionaries', link: '/python/dictionaries' },
           { text: 'Files', link: '/python/files' },
           { text: 'Errors', link: '/python/errors' },
-          { text: 'Modules', link: '/python/modules' }
+          { text: 'Modules', link: '/python/modules' },
+          { text: 'Problems', link: '/python/problems' }
         ]
       }
     ]

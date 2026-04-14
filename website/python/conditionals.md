@@ -1,4 +1,4 @@
-# Chapter 5 — If / Elif / Else
+# If / Elif / Else
 
 Conditionals let your program **make decisions**. Without them, code just runs top to bottom, every line, every time. With conditionals, you can run certain code only when specific conditions are met.
 

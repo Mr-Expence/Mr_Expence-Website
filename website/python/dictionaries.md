@@ -1,4 +1,4 @@
-# Chapter 9 — Dictionaries
+# Dictionaries
 
 A dictionary stores data as **key-value pairs**. Instead of accessing items by index (position 0, 1, 2...), you access them by a **name** (the key).
 

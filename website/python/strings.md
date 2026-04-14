@@ -1,4 +1,4 @@
-# Chapter 3 — Strings
+# Strings
 
 Strings are how Python handles text. You'll use them constantly — for output, user input, file names, messages, everything.
 

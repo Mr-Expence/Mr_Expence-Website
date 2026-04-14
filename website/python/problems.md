@@ -27,6 +27,8 @@ async function roll(min, max) {
 
 # Problem Picker
 
+[Codeforces](https://codeforces.com/problemset) is a great place to find coding problems. They can be simple and easy or complex and difficult. The difficulties go from 800 to 3500
+
 Get a random problem from [Codeforces](https://codeforces.com/problemset).
 
 </center>
