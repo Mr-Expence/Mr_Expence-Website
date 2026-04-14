@@ -3,8 +3,6 @@ search: false
 ---
 # What is Python & Setting Up
 
-## Made by AI for myself
-
 ## What even is Python?
 
 Python is a **programming language** — a way to give instructions to a computer that it can actually understand and execute.
