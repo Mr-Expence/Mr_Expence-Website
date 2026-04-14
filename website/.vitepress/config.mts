@@ -20,7 +20,7 @@ export default defineConfig({
           { text: 'Shulker UI', link: '/projects/shulker-ui' },
           { text: "Mr_Expence's PvP Overlay", link: '/projects/mr-expence-pvp-overlay' },
           { text: "Bare Bones Buttons", link: '/projects/bare-bones-buttons' },
-          { text: "Cosmetics+", link: '/projects/cosmetics-plus' },
+          { text: "Cosmetics+", link: '/projects/cosmetics' },
           { text: "Alternate Effect Particles", link: '/projects/alternate-effect-particles' },
           { text: "Bare Bones Buttons Lamps", link: '/projects/bare-bones-buttons-lamps' }
         ]
