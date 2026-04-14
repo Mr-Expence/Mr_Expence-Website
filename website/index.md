@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "Mr_Expence"
-  text: "The place for Mr_Expence's Projects"
-  tagline: Great Projects come from Great People
+  text: 
+  tagline: 
   image:
     src: /logo.png
     alt: Mr_Expence
