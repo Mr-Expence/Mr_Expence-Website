@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "Mr_Expence"
-  text: 
-  tagline: 
+  text: "Made by Me, Myself and I"
+  tagline: If Minecraft is your power, what are you without it?
   image:
     src: /logo.png
     alt: Mr_Expence
