@@ -6,4 +6,6 @@ next: false
 title: Resource Pack Guide
 ---
 
-# [![Guide](./public/guide_logo.png)](./guide/intro.md)
+<head>
+  <meta http-equiv='refresh' content='0; URL=/guide/intro'>
+</head>
