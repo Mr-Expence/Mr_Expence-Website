@@ -13,7 +13,18 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Resource Pack Guide', link: '/guide/intro' },
-      { text: 'Projects', link: '/projects' }
+      {
+        text: 'Projects',
+        items: [
+          { text: 'Flaming Swords', link: '/projects/flaming-swords' },
+          { text: 'Shulker UI', link: '/projects/shulker-ui' },
+          { text: "Mr_Expence's PvP Overlay", link: '/projects/mr-expence-pvp-overlay' },
+          { text: "Bare Bones Buttons", link: '/projects/bare-bones-buttons' },
+          { text: "Cosmetics+", link: '/projects/cosmetics-plus' },
+          { text: "Alternate Effect Particles", link: '/projects/alternate-effect-particles' },
+          { text: "Bare Bones Buttons Lamps", link: '/projects/bare-bones-buttons-lamps' }
+        ]
+      }
     ],
     siteTitle: 'Mr_Expence',
     logo: '/cat_logo.png',
