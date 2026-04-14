@@ -22,7 +22,7 @@ export default defineConfig({
           { text: "Bare Bones Buttons", link: '/projects/bare-bones-buttons' },
           { text: "Cosmetics+", link: '/projects/cosmetics' },
           { text: "Alternate Effect Particles", link: '/projects/alternate-effect-particles' },
-          { text: "Bare Bones Buttons Lamps", link: '/projects/bare-bones-buttons-lamps' }
+          { text: "Bare Bone Crossless Lamps", link: '/projects/bare-bone-crossless-lamps' }
         ]
       }
     ],
