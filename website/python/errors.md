@@ -1,3 +1,6 @@
+---
+search: false
+---
 # Error Handling
 
 Programs crash. Users enter the wrong thing, files go missing, servers go down. Error handling is how you deal with that gracefully — catching problems before they explode and giving useful feedback instead of a raw stack trace.

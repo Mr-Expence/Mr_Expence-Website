@@ -1,5 +1,6 @@
 ---
 title: Problem Picker
+search: false
 ---
 
 <script setup>

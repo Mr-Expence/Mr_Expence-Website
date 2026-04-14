@@ -1,3 +1,6 @@
+---
+search: false
+---
 # Loops
 
 Loops let you repeat code. Instead of writing the same thing 100 times, you write it once and tell Python how many times to run it.

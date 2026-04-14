@@ -13,9 +13,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Resource Pack Guide', link: '/guide/intro' },
-      { text: 'Projects', link: '/projects' },
-      { text: 'Python Guide', link: '/python/setup' },
-      { text: 'Codeforces Problem Picker', link: '/python/problems' }
+      { text: 'Projects', link: '/projects' }
     ],
     siteTitle: 'Mr_Expence',
     logo: '/cat_logo.png',

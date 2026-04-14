@@ -1,3 +1,6 @@
+---
+search: false
+---
 # Modules & Imports
 
 Python comes with a huge **standard library** — hundreds of built-in modules that handle everything from dates to randomness to file paths to sending HTTP requests. You just have to import them.

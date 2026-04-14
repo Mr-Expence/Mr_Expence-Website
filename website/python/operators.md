@@ -1,3 +1,6 @@
+---
+search: false
+---
 # Operators & Comparisons
 
 Operators are the symbols you use to do math, compare values, and combine logic. They're everywhere.

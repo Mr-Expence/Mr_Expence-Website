@@ -1,3 +1,6 @@
+---
+search: false
+---
 # Functions
 
 Functions let you group code into a named, reusable block. Instead of writing the same logic multiple times in different places, you write it once as a function and call it whenever you need it.

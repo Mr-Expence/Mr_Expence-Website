@@ -1,3 +1,6 @@
+---
+search: false
+---
 # What is Python & Setting Up
 
 ## Made by AI for myself

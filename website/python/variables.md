@@ -1,3 +1,6 @@
+---
+search: false
+---
 # Variables & Data Types
 
 ## What's a variable?
