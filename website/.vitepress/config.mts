@@ -18,7 +18,7 @@ export default defineConfig({
         items: [
           { text: 'Flaming Swords', link: '/projects/flaming-swords' },
           { text: 'Shulker UI', link: '/projects/shulker-ui' },
-          { text: "Mr_Expence's PvP Overlay", link: '/projects/mr_expence-pvp-overlay' },
+          { text: "Mr_Expence's PvP Overlay", link: '/projects/mr_expences-pvp-overlay' },
           { text: "Bare Bones Buttons", link: '/projects/bare-bones-buttons' },
           { text: "Cosmetics+", link: '/projects/cosmetics' },
           { text: "Alternate Effect Particles", link: '/projects/alternate-effect-particles' },
