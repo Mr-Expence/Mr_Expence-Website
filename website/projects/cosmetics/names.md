@@ -1,3 +1,11 @@
+---
+aside: false
+sidebar: false
+prev: false
+next: false
+title: Cosmetics+ Model Names
+---
+
 | # | Cosmetic ID |
 |---|-------------|
 | 1 | ```cosmetics:blue_tophat``` |
