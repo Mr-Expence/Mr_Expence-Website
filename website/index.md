@@ -18,7 +18,7 @@ hero:
       link: /projects
     - theme: alt
       text: Socials
-      link: /public/social
+      link: /social
 
 features:
   - title: Flaming Swords
