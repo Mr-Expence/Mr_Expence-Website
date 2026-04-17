@@ -47,14 +47,26 @@ features:
     link: /guide/intro
 ---
 
+
+
 <center>
 
 <br><br><br>
 
-<h1> Latest Video </h1>
+<h1>Latest Youtube Video</h1>
 
 <br>
 
-<iframe loading="lazy" class="video__last-video" width="640" height="360" title="Latest video" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen src="https://www.youtube.com/embed?listType=playlist&list=UUq9MzduXHZDplR16h1upgcQ"></iframe>
+<div style="
+width: 640px;
+-webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%); /*ios 7 border-radius-bug */
+-webkit-transform: rotate(0.000001deg); /*mac os 10.6 safari 5 border-radius-bug */
+-webkit-border-radius: 10px; 
+-moz-border-radius: 10px;
+border-radius: 10px; 
+overflow: hidden; 
+">
+<iframe loading="lazy" class="video__last-video" width="640" height="360" frameborder="0" title="Latest video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen src="https://www.youtube.com/embed?listType=playlist&list=UUq9MzduXHZDplR16h1upgcQ&amp;controls=0"></iframe>
+</div>
 
 </center>
