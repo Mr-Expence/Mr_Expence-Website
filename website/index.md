@@ -47,3 +47,14 @@ features:
     link: /guide/intro
 ---
 
+<center>
+
+<br><br><br>
+
+<h1> Latest Video </h1>
+
+<br>
+
+<iframe loading="lazy" class="video__last-video" width="640" height="360" title="Latest video" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen src="https://www.youtube.com/embed?listType=playlist&list=UUq9MzduXHZDplR16h1upgcQ"></iframe>
+
+</center>
