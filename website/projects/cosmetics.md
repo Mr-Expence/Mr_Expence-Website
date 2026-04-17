@@ -23,7 +23,7 @@ width: 640px;
 border-radius: 10px; 
 overflow: hidden; 
 ">
-<iframe loading="lazy" class="video__last-video" width="640" height="360" frameborder="0" title="Latest video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen src="https://www.youtube.com/embed/ODnWKTJJLwc&amp;controls=0"></iframe>
+<iframe loading="lazy" class="video__last-video" width="640" height="360" frameborder="0" title="Latest video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen src="https://www.youtube.com/embed/ODnWKTJJLwc"></iframe>
 </div><br><br><br>
 
 <!-- Download links -->
