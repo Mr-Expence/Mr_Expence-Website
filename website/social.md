@@ -1,7 +1,3 @@
----
-search: false
----
-
 <head>
-  <meta http-equiv='refresh' content='0; URL=/public/social'>
+  <meta http-equiv='refresh' content='0; URL=/public/social.html'>
 </head>
