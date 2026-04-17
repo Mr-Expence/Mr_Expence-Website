@@ -27,7 +27,7 @@ export default defineConfig({
       }
     ],
     footer: {
-      message: 'All my projects have All Rights Reserved.',
+      message: 'All my projects that have been uploaded on Modrinth have All Rights Reserved.',
       copyright: 'Copyright © 2025-present Mr_Expence'
     },
     siteTitle: 'Mr_Expence',
