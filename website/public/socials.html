@@ -1358,6 +1358,7 @@
         .catch(() => setCountText("github-count", "N/A"));
       // CurseForge
       setCountText("curseforge-count", "N/A");
+      // Discord
       fetch("https://discord.com/api/guilds/1377934065025679380/widget.json")
         .then((res) => {
           if (!res.ok) throw new Error("Widget not enabled or bad ID");
