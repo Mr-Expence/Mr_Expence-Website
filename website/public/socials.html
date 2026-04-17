@@ -33,14 +33,20 @@
         --text: #e4e6f0;
         --muted: #6b7280;
         --dim: #3d4050;
-        --accent: #5865f2;
-        --accent2: #e0e3ff;
-        --accent3: #ff0000;
-        --accent4: #9146ff;
-        --accent5: #00af5c;
-        --accent6: #f16436;
-        --accent7: #3094ff;
-        --accent8: #fdd927;
+        --accent: #5865f2; /* Discord */
+        --accent2: #e0e3ff; /* White */
+        --accent3: #ff0000; /* Youtube */
+        --accent4: #9146ff; /* Twitch */
+        --accent5: #00af5c; /* Modrinth */
+        --accent6: #f16436; /* Curseforge */
+        --accent7: #3094ff; /* Github */
+        --accent8: #fdd927; /* Github Stars */
+        --accent9: #000000; /* X */
+        --accent10: #ff0069; /* Instagram */
+        --accent11: #52a7e7; /* Twitter */
+        --accent12: #ff4500; /* Reddit */
+        --accent13: #26a5e4; /* Telegram */
+
         --accent-bg: rgba(88, 101, 242, 0.12);
         --green: #23a559;
         --red: #ff0000;
@@ -321,6 +327,8 @@
         );
       }
 
+      /* ---------- Modrinth bubble card ---------- */
+
       .card-modrinth {
         width: 100%;
         background: var(--bg2);
@@ -331,6 +339,7 @@
         animation: fadeUp 0.55s ease 0.28s forwards;
       }
 
+      /* Card top accent line */
       .card-modrinth::before {
         content: "";
         display: block;
@@ -344,6 +353,7 @@
         );
       }
 
+      /* ---------- Curseforge bubble card ---------- */
       .card-curseforge {
         width: 100%;
         background: var(--bg2);
@@ -354,6 +364,7 @@
         animation: fadeUp 0.55s ease 0.28s forwards;
       }
 
+      /* Card top accent line */
       .card-curseforge::before {
         content: "";
         display: block;
@@ -367,6 +378,7 @@
         );
       }
 
+      /* ---------- Github bubble card ---------- */
       .card-github {
         width: 100%;
         background: var(--bg2);
@@ -377,6 +389,7 @@
         animation: fadeUp 0.55s ease 0.28s forwards;
       }
 
+      /* Card top accent line */
       .card-github::before {
         content: "";
         display: block;
@@ -386,6 +399,131 @@
           transparent 0%,
           var(--accent7) 40%,
           var(--accent7) 60%,
+          transparent 100%
+        );
+      }
+
+      /* ---------- X bubble card ---------- */
+      .card-x {
+        width: 100%;
+        background: var(--bg2);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        overflow: hidden;
+        opacity: 0;
+        animation: fadeUp 0.55s ease 0.28s forwards;
+      }
+
+      /* Card top accent line */
+      .card-x::before {
+        content: "";
+        display: block;
+        height: 2px;
+        background: linear-gradient(
+          90deg,
+          transparent 0%,
+          var(--accent9) 40%,
+          var(--accent9) 60%,
+          transparent 100%
+        );
+      }
+
+      /* ---------- Instagram bubble card ---------- */
+      .card-instagram {
+        width: 100%;
+        background: var(--bg2);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        overflow: hidden;
+        opacity: 0;
+        animation: fadeUp 0.55s ease 0.28s forwards;
+      }
+
+      /* Card top accent line */
+      .card-instagram::before {
+        content: "";
+        display: block;
+        height: 2px;
+        background: linear-gradient(
+          90deg,
+          transparent 0%,
+          var(--accent10) 40%,
+          var(--accent10) 60%,
+          transparent 100%
+        );
+      }
+
+      /* ---------- Twitter bubble card ---------- */
+      .card-twitter {
+        width: 100%;
+        background: var(--bg2);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        overflow: hidden;
+        opacity: 0;
+        animation: fadeUp 0.55s ease 0.28s forwards;
+      }
+
+      /* Card top accent line */
+      .card-twitter::before {
+        content: "";
+        display: block;
+        height: 2px;
+        background: linear-gradient(
+          90deg,
+          transparent 0%,
+          var(--accent11) 40%,
+          var(--accent11) 60%,
+          transparent 100%
+        );
+      }
+
+      /* ---------- Reddit bubble card ---------- */
+      .card-reddit {
+        width: 100%;
+        background: var(--bg2);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        overflow: hidden;
+        opacity: 0;
+        animation: fadeUp 0.55s ease 0.28s forwards;
+      }
+
+      /* Card top accent line */
+      .card-reddit::before {
+        content: "";
+        display: block;
+        height: 2px;
+        background: linear-gradient(
+          90deg,
+          transparent 0%,
+          var(--accent12) 40%,
+          var(--accent12) 60%,
+          transparent 100%
+        );
+      }
+
+      /* ---------- Telegram bubble card ---------- */
+      .card-telegram {
+        width: 100%;
+        background: var(--bg2);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        overflow: hidden;
+        opacity: 0;
+        animation: fadeUp 0.55s ease 0.28s forwards;
+      }
+
+      /* Card top accent line */
+      .card-telegram::before {
+        content: "";
+        display: block;
+        height: 2px;
+        background: linear-gradient(
+          90deg,
+          transparent 0%,
+          var(--accent13) 40%,
+          var(--accent13) 60%,
           transparent 100%
         );
       }
@@ -1252,6 +1390,30 @@
         .catch(() => {
           document.getElementById("follower-count").textContent = "N/A";
         });
+      // Instagram
+      fetch("https://www.instagram.com/YOUR_USERNAME/?__a=1&__d=dis")
+        .then((res) => res.json())
+        .then((data) => {
+          setCountText(
+            "instagram-count",
+            formatCount(data.graphql?.user?.edge_followers?.count),
+          );
+        })
+        .catch(() => setCountText("instagram-count", "N/A"));
+
+      // Twitter/X
+      setCountText("twitter-count", "N/A");
+
+      // Reddit
+      fetch("https://www.reddit.com/user/YOUR_USERNAME/about.json")
+        .then((res) => res.json())
+        .then((data) => {
+          setCountText("reddit-count", formatCount(data.data?.total_karma));
+        })
+        .catch(() => setCountText("reddit-count", "N/A"));
+
+      // Telegram
+      setCountText("telegram-count", "N/A");
     </script>
   </body>
 </html>
