@@ -68,5 +68,4 @@ overflow: hidden;
 ">
 <iframe loading="lazy" class="video__last-video" width="640" height="360" frameborder="0" title="Latest video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen src="https://www.youtube.com/embed?listType=playlist&list=UUq9MzduXHZDplR16h1upgcQ&amp;controls=0"></iframe>
 </div>
-
 </center>
