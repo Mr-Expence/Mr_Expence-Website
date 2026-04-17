@@ -60,6 +60,7 @@ export default defineConfig({
                 { text: "Models", link: "/guide/models" },
               ],
             },
+            { text: "Blockstates", link: "/guide/blockstates"}
           ],
         },
       ],
@@ -89,15 +90,12 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/Mr-Expence" },
-      { icon: "modrinth", link: "https://modrinth.com/user/Mr_Expence" },
-      {
-        icon: "curseforge",
-        link: "https://www.curseforge.com/members/mr_expence/projects",
-      },
       { icon: "discord", link: "https://discord.gg/3kbz7edSa6" },
       { icon: "youtube", link: "https://www.youtube.com/@Mr_Expence" },
       { icon: "twitch", link: "https://www.twitch.tv/mrexpence" },
+      { icon: "modrinth", link: "https://modrinth.com/user/Mr_Expence" },
+      { icon: "curseforge", link: "https://www.curseforge.com/members/mr_expence/projects", },
+      { icon: "github", link: "https://github.com/Mr-Expence" }
     ],
   },
 });
