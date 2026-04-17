@@ -26,6 +26,10 @@ export default defineConfig({
         ]
       }
     ],
+    footer: {
+      message: 'All my projects have All Rights Reserved.',
+      copyright: 'Copyright © 2025-present Mr_Expence'
+    },
     siteTitle: 'Mr_Expence',
     logo: '/cat_logo.png',
     outline: {
