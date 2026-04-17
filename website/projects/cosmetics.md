@@ -14,8 +14,17 @@ title: Cosmetics+
 <br>
 
 <!-- Video -->
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ODnWKTJJLwc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><br><br>
+<div style="
+width: 640px;
+-webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%); /*ios 7 border-radius-bug */
+-webkit-transform: rotate(0.000001deg); /*mac os 10.6 safari 5 border-radius-bug */
+-webkit-border-radius: 10px; 
+-moz-border-radius: 10px;
+border-radius: 10px; 
+overflow: hidden; 
+">
+<iframe loading="lazy" class="video__last-video" width="640" height="360" frameborder="0" title="Latest video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen src="https://www.youtube.com/embed/ODnWKTJJLwc&amp;controls=0"></iframe>
+</div><br><br><br>
 
 <!-- Download links -->
 
