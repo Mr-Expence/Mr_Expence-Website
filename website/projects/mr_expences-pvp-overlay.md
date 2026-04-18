@@ -13,6 +13,19 @@ title: Mr_Expence's PvP Overlay
 ## My custom vanilla Pvp Overlay for Minecraft with blue cobwebs and other features
 <br>
 
+<!-- Video -->
+<div style="
+width: 640px;
+-webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%); /*ios 7 border-radius-bug */
+-webkit-transform: rotate(0.000001deg); /*mac os 10.6 safari 5 border-radius-bug */
+-webkit-border-radius: 10px; 
+-moz-border-radius: 10px;
+border-radius: 10px; 
+overflow: hidden; 
+">
+<iframe loading="lazy" class="video__last-video" width="640" height="360" frameborder="0" title="Latest video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen src="https://www.youtube.com/embed/crty6HvsoHA?si=N7dhl1kPX4p6UFu0&amp;controls=0"></iframe>
+</div><br><br><br>
+
 <!-- Download links -->
 
 <div style="display:inline-flex;gap:16px;flex-wrap:wrap">
