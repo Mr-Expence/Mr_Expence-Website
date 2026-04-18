@@ -35,7 +35,7 @@ export default defineConfig({
     ],
     footer: {
       message:
-        "All my projects that have been uploaded on Modrinth have All Rights Reserved.",
+        "All my projects that have been uploaded on Modrinth, Curseforge, and PlanetMinecraft have All Rights Reserved.",
       copyright: "Copyright © 2025-present Mr_Expence",
     },
     siteTitle: "Mr_Expence",
@@ -86,7 +86,7 @@ export default defineConfig({
       ],
     },
     search: {
-      provider: "local",
+      provider: "local"
     },
 
     socialLinks: [
