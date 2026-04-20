@@ -21,8 +21,6 @@ title: Alternate Effect Particles
 
 </div>
 
-[Download](../public/alternate-effect-particles/Effect-Particles.zip)
-
 ![Particle](../public/alternate-effect-particles/particles.png)
 
 </center>
