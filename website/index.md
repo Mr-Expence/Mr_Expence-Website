@@ -18,7 +18,7 @@ hero:
       link: /projects
     - theme: alt
       text: Socials
-      link: https://mr-expence.github.io/socials
+      link: /public/socials.html
 
 features:
   - title: Flaming Swords
