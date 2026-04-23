@@ -46,6 +46,6 @@ You can also choose what frames get displayed in any order.
 ```
 You can reuse frames with this. Remember frame 0 is the first frame.
 
-:::tip Misode
-[Texture Metadata Genorator](https://misode.github.io/assets/texture-meta/)
-:::
+<a href="https://misode.github.io/assets/texture-meta/" target="_blank" rel="noopener noreferrer">
+  <Badge type="info" text="Misode Texture Metadata Generator" />
+</a>

@@ -53,7 +53,6 @@ export default defineConfig({
             { text: "Structure", link: "/guide/structure" },
             {
               text: "Basic Elements",
-              collapsed: true,
               items: [
                 { text: "Pack Setup", link: "/guide/pack_setup" },
                 { text: "Textures", link: "/guide/textures" },
