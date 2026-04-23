@@ -73,10 +73,6 @@
   --vp-c-misode-1: var(--vp-c-green-1);
   --vp-c-misode-3: var(--vp-c-green-3);
   --vp-c-misode-soft: var(--vp-c-green-soft);
-
-  --vp-badge-misode-border: transparent;
-  --vp-badge-misode-text: var(--vp-c-misode-1);
-  --vp-badge-misode-bg: var(--vp-c-misode-soft);
 }
 
 /**
@@ -152,3 +148,8 @@
   vertical-align: middle;
 }
 
+.VPBadge.misode {
+  --vp-badge-misode-border: transparent;
+  --vp-badge-misode-text: var(--vp-c-misode-1);
+  --vp-badge-misode-bg: var(--vp-c-misode-soft);
+}
