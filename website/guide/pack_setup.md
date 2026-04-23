@@ -115,7 +115,7 @@ I would recommend using this instead as it works for `1.21.5` and above.
 ```
 
 
-::: details Mr_Expence's Tips
+::: details Mr_Expence's Pack Metadata
 I use
 ```json
 {
