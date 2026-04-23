@@ -149,17 +149,6 @@
 }
 
 .VPBadge.misode {
-  --vp-badge-misode-border: transparent;
-  --vp-badge-misode-text: var(--vp-c-misode-1);
-  --vp-badge-misode-bg: var(--vp-c-misode-soft);
-}
-
-
-:root {
-  --vp-badge-custom-bg: #646cff;
-  --vp-badge-custom-text: #ffffff;
-}
-.VPBadge.custom {
   background-color: var(--vp-c-misode-soft);
   color: var(--vp-c-misode-1);
 }
