@@ -68,6 +68,15 @@
   --vp-c-danger-2: var(--vp-c-red-2);
   --vp-c-danger-3: var(--vp-c-red-3);
   --vp-c-danger-soft: var(--vp-c-red-soft);
+
+  --vp-c-misode-2: var(--vp-c-green-2);
+  --vp-c-misode-1: var(--vp-c-green-1);
+  --vp-c-misode-3: var(--vp-c-green-3);
+  --vp-c-misode-soft: var(--vp-c-green-soft);
+
+  --vp-badge-misode-border: transparent;
+  --vp-badge-misode-text: var(--vp-c-misode-1);
+  --vp-badge-misode-bg: var(--vp-c-misode-soft);
 }
 
 /**
