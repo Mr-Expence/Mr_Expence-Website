@@ -149,7 +149,7 @@ Replace Summary with your pack summary and change IGN to your Minecraft username
 <center>
 
 <a href="https://misode.github.io/pack-mcmeta/" target="_blank" rel="noopener noreferrer">
-  <Badge type="info" text="Misode Pack Metadata Generator" />
+  <Badge type="misode" text="Misode Pack Metadata Generator" />
 </a>
 
 </center>
