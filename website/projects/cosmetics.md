@@ -87,4 +87,7 @@ It is recommended to use [Item Model Browser](https://modrinth.com/mod/model-bro
 <br><br><br>
 
 
+
+<Badge type="custom" text="My Badge" />
+
 </center>
