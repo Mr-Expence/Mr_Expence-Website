@@ -146,6 +146,10 @@ I use
 Replace Summary with your pack summary and change IGN to your Minecraft username and Name to the name you go by. This will Make your head appear.
 :::
 
+::: details Click to expand this green block {.green-block}
+This content is hidden by default and turns green!
+:::
+
 <center>
 
 <a href="https://misode.github.io/pack-mcmeta/" target="_blank" rel="noopener noreferrer">
