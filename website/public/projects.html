@@ -1303,6 +1303,25 @@
         </div>
       </a>
       <br />
+      <!-- Usage: set data-slug and data-type, the script does the rest -->
+      <a
+        class="mr-card"
+        data-slug="alternate-effect-particles"
+        data-type="resourcepack"
+        data-author="Mr_Expence"
+        href="#"
+      >
+        <div class="mr-icon"></div>
+        <div class="mr-body">
+          <div class="mr-header">
+            <span class="mr-title"></span>
+            <span class="mr-author"></span>
+          </div>
+          <p class="mr-desc"></p>
+          <div class="mr-meta"></div>
+        </div>
+      </a>
+      <br />
     </section>
     <script>
       const setCountText = (id, value) => {
@@ -1402,6 +1421,8 @@
       setCountText("telegram-count", "N/A");
       const UA = "Mr-Expence/vitepress-site";
 
+
+      // ── Full cards ──
       async function fetchProject(slug) {
         const res = await fetch(`https://api.modrinth.com/v2/project/${slug}`, {
           headers: { "User-Agent": UA },
@@ -1416,7 +1437,7 @@
         return n.toLocaleString();
       }
 
-      // ── Full cards ──
+
       document.querySelectorAll(".mr-card[data-slug]").forEach(async (el) => {
         const { slug, type, author } = el.dataset;
         el.href = `https://mr-expence.github.io/projects/${slug}`;
