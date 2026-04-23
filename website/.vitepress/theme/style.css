@@ -160,6 +160,6 @@
   --vp-badge-custom-text: #ffffff;
 }
 .VPBadge.custom {
-  background-color: var(--vp-badge-custom-bg);
-  color: var(--vp-badge-custom-text);
+  background-color: var(--vp-c-misode-soft);
+  color: var(--vp-c-misode-1);
 }
