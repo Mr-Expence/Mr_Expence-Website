@@ -86,8 +86,4 @@ For helmets and armor requires [Model Applier](https://modrinth.com/datapack/mod
 It is recommended to use [Item Model Browser](https://modrinth.com/mod/model-browser) to view all the custom models included in this pack.
 <br><br><br>
 
-
-
-<Badge type="custom" text="My Badge" />
-
 </center>
