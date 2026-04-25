@@ -106,7 +106,7 @@ Depending on what you want to include in your pack, a program from the relevant 
 | [Blockbench](https://blockbench.net/) | A free program to create 3d models for Minecraft and similar games. |
 | [Misode](https://misode.github.io/) | A free website to create json files. Has mod and datapack support. |
 
-::: info
+::: tip Misode Generator
 If you see [<Badge type="misode" text="Misode Generator" />](https://misode.github.io/), there is an avalible [Misode](https://misode.github.io/) page
 :::
 
