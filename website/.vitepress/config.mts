@@ -5,7 +5,7 @@ export default defineConfig({
   title: "Mr_Expence",
   description: "The place for Mr_Expence's Projects and more!",
   cleanUrls: true,
-  head: [["link", { rel: "icon", href: "/logo.png" }]],
+  head: [["link", { rel: "icon", href: "/mobile-logo.svg" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

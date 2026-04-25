@@ -37,18 +37,18 @@ Get a random problem from [Codeforces](https://codeforces.com/problemset).
 <div style="display:flex;gap:10px;align-items:flex-end;flex-wrap:wrap;margin:1.5rem 0;justify-content:center">
   <div>
     <label style="display:block;font-size:12px;color:var(--vp-c-text-2);margin-bottom:4px">Min</label>
-    <select id="min-rating" style="height:36px;padding:0 8px;border-radius:8px;border:1px solid var(--vp-c-divider);background:var(--vp-c-bg-soft);color:var(--vp-c-text-1);font-size:14px">
-      <option v-for="r in RATINGS" :key="r" :value="r" :selected="r === 1200">{{ r }}</option>
+    <select id="min-rating" style="height:36px;padding:0 8px;border-radius:8px;border:1px solid var(--vp-c-divider);background:var(--vp-c-bg-soft);color:var(--vp-c-text-1);font-size:14px;cursor:pointer">
+      <option v-for="r in RATINGS" :key="r" :value="r" :selected="r === 800">{{ r }}</option>
     </select>
   </div>
   <div>
     <label style="display:block;font-size:12px;color:var(--vp-c-text-2);margin-bottom:4px">Max</label>
-    <select id="max-rating" style="height:36px;padding:0 8px;border-radius:8px;border:1px solid var(--vp-c-divider);background:var(--vp-c-bg-soft);color:var(--vp-c-text-1);font-size:14px">
-      <option v-for="r in RATINGS" :key="r" :value="r" :selected="r === 1600">{{ r }}</option>
+    <select id="max-rating" style="height:36px;padding:0 8px;border-radius:8px;border:1px solid var(--vp-c-divider);background:var(--vp-c-bg-soft);color:var(--vp-c-text-1);font-size:14px;cursor:pointer">
+      <option v-for="r in RATINGS" :key="r" :value="r" :selected="r === 3500">{{ r }}</option>
     </select>
   </div>
   <button id="roll-btn"
-    style="height:36px;padding:0 20px;border-radius:8px;border:1px solid var(--vp-c-brand-1);background:var(--vp-c-brand-1);color:#fff;font-size:14px;font-weight:500;cursor:pointer"
+    style="height:36px;padding:0 20px;border-radius:8px;border:1px solid var(--vp-c-brand-soft);background:var(--vp-c-brand-2);color:#fff;font-size:14px;font-weight:500;cursor:pointer"
     @click="roll(+$el.closest('div').querySelector('#min-rating').value, +$el.closest('div').querySelector('#max-rating').value)">
     🎲 Random Problem
   </button>

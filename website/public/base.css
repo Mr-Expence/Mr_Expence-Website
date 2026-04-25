@@ -1,0 +1,242 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #0f0f13;
+  --bg2: #16171f;
+  --bg3: #1c1d2b;
+  --border: rgba(255, 255, 255, 0.08);
+  --border2: rgba(100, 108, 255, 0.25);
+  --text: #e4e6f0;
+  --muted: #6b7280;
+  --dim: #3d4050;
+  --accent: #5865f2; /* Discord */
+  --accent2: #e0e3ff; /* White */
+  --accent3: #ff0000; /* Youtube */
+  --accent4: #9146ff; /* Twitch */
+  --accent5: #00af5c; /* Modrinth */
+  --accent6: #f16436; /* Curseforge */
+  --accent7: #3094ff; /* Github */
+  --accent8: #fdd927; /* Github Stars */
+  --accent9: #000000; /* X */
+  --accent10: #ff0069; /* Instagram */
+  --accent11: #52a7e7; /* Twitter */
+  --accent12: #ff4500; /* Reddit */
+  --accent13: #26a5e4; /* Telegram */
+
+  --accent-bg: rgba(88, 101, 242, 0.12);
+  --green: #23a559;
+  --red: #ff0000;
+  --purple: #9146ff;
+  --radius: 16px;
+  --font: "DM Sans", sans-serif;
+  --mono: "DM Mono", monospace;
+}
+
+html,
+body {
+  min-height: 100vh;
+  background: var(--bg);
+  font-family: var(--font);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 20px 64px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Ambient glow layers */
+.glow-top {
+  position: fixed;
+  top: -200px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 700px;
+  height: 700px;
+  background: radial-gradient(
+    ellipse,
+    rgba(88, 101, 242, 0.13) 0%,
+    transparent 65%
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+
+.glow-bottom {
+  position: fixed;
+  bottom: -180px;
+  right: -100px;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(
+    ellipse,
+    rgba(129, 140, 248, 0.07) 0%,
+    transparent 65%
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Grid texture overlay */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ---------- Layout ---------- */
+.wrapper {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1160px;
+}
+
+/* ---------- Top brand link ---------- */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  margin-bottom: 36px;
+  opacity: 0;
+  animation: fadeUp 0.5s ease 0.05s forwards;
+}
+
+.brand img {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.brand-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--muted);
+  letter-spacing: -0.01em;
+  font-family: var(--mono);
+}
+
+.brand-name span {
+  color: var(--accent2);
+}
+
+.brand:hover .brand-name {
+  color: var(--text);
+}
+
+/* ---------- Header text ---------- */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: var(--accent-bg);
+  border: 1px solid var(--border2);
+  color: var(--accent2);
+  font-size: 11.5px;
+  font-weight: 600;
+  padding: 5px 14px;
+  border-radius: 20px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  opacity: 0;
+  animation: fadeUp 0.5s ease 0.1s forwards;
+}
+
+.badge-pulse {
+  width: 6px;
+  height: 6px;
+  background: var(--accent);
+  border-radius: 50%;
+  position: relative;
+}
+
+.badge-pulse::after {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  border-radius: 50%;
+  background: var(--accent);
+  opacity: 0.3;
+  animation: pulse 2s ease infinite;
+}
+
+.heading {
+  font-size: clamp(28px, 6vw, 38px);
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.18;
+  letter-spacing: -0.03em;
+  margin-bottom: 10px;
+  color: var(--text);
+  opacity: 0;
+  animation: fadeUp 0.5s ease 0.15s forwards;
+}
+
+.heading em {
+  font-style: normal;
+  background: linear-gradient(130deg, #818cf8 20%, #5865f2 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.sub {
+  font-size: 14.5px;
+  color: var(--muted);
+  text-align: center;
+  line-height: 1.6;
+  max-width: 340px;
+  margin-bottom: 36px;
+  opacity: 0;
+  animation: fadeUp 0.5s ease 0.2s forwards;
+}
+
+/* Keyframes */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.3;
+  }
+
+  50% {
+    transform: scale(2.2);
+    opacity: 0;
+  }
+}
