@@ -108,8 +108,8 @@ Depending on what you want to include in your pack, a program from the relevant 
 
 ::: info
 If you see <a href="https://misode.github.io" target="_blank" rel="noopener noreferrer">
-  <Badge type="misode" text="Misode Generator" />, there is a link to [Misode](https://misode.github.io/)
-</a>
+  <Badge type="misode" text="Misode Generator" />
+</a>, there is a link to [Misode](https://misode.github.io/)
 :::
 
 
