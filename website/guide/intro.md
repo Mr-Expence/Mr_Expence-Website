@@ -107,20 +107,11 @@ Depending on what you want to include in your pack, a program from the relevant 
 | [Misode](https://misode.github.io/) | A free website to create json files. Has mod and datapack support. |
 
 ::: info
-These are a must for more complex resource packs.
+If you see <a href="https://misode.github.io" target="_blank" rel="noopener noreferrer">
+  <Badge type="misode" text="Misode Generator" />, there is a link to [Misode](https://misode.github.io/)
+</a>
 :::
 
-### Texture/Resource Pack Converters
-
-Tools to convert texture & resource packs to newer versions.
-| Software | About |
-|----------|-------|
-| [Dinnerbone's Texture Pack Unstitcher Program (Direct Download)](http://assets.minecraft.net/unstitcher/unstitcher.jar) | A tool to convert texture packs to Minecraft version 1.5. |
-| [Flying-Sheep's Texture Pack Unstitcher Rewrite](https://github.com/flying-sheep/unstitcher/) | A rewrite of Dinnerbone's tool made by a community member. |
-| [TextureEnder made by Mojang (Direct Download)](http://s3.amazonaws.com/Minecraft.Download/utilities/TextureEnder.jar) | A tool made by Mojang to convert Texture Packs from 1.5 to resource packs. (also on GitHub) |
-| [Resource Pack Converter](https://www.planetminecraft.com/mod/minecraft-1-12-1-13-1-14-1-15-resource-pack-converter/) | A tool to convert resource packs to newer versions. |
-| [Java to Bedrock Resource Pack Converter](https://ozelot379.github.io/ConvertJavaTextureToBedrock/) | A tool to convert your java resource pack to bedrock. |
-| [Minecraft Title Converter](https://ewanhowell.com/tools/minecrafttitleconverter/) | A tool made to convert the new title format to the old style. |
 
 ### Other Software
 
