@@ -107,9 +107,7 @@ Depending on what you want to include in your pack, a program from the relevant 
 | [Misode](https://misode.github.io/) | A free website to create json files. Has mod and datapack support. |
 
 ::: info
-If you see <a href="https://misode.github.io" target="_blank" rel="noopener noreferrer">
-  <Badge type="misode" text="Misode Generator" />
-</a>, there is a link to [Misode](https://misode.github.io/)
+If you see [<Badge type="misode" text="Misode Generator" />](https://misode.github.io/), there is an avalible [Misode](https://misode.github.io/) page
 :::
 
 
