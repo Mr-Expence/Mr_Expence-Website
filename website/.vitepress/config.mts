@@ -32,6 +32,7 @@ export default defineConfig({
           },
         ],
       },
+      { text: "Socials", link: "/socials" }
     ],
     footer: {
       message:

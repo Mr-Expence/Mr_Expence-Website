@@ -6,6 +6,12 @@ next: false
 title: Alternate Effect Particles
 ---
 
+<div class="project-sidebar">
+  <img class="icon" src="../public/alternate-effect-particles/pack.png" alt="Alternate Effect Particles">
+  <h3>Alternate Effect Particles</h3>
+  <a class="download-btn" id="download-btn" href="https://cdn.discordapp.com/attachments/1426017569394917446/1497733606674661503/Effect_Particle.zip?ex=69ee989e&is=69ed471e&hm=87e09375df9b1694891de9dfc1c96a239fe32fa21a30c76220169843be5344b0&" target="_blank">Download</a>
+</div>
+
 <center>
 <img src="../public/alternate-effect-particles/effect-logo.png" width="600" alt="Logo"><br><br>
 

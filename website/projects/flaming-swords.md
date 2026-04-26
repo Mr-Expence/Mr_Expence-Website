@@ -6,7 +6,11 @@ next: false
 title: Flaming Swords
 ---
 
-<!-- Removes Side Bars -->
+<div class="project-sidebar">
+  <img class="icon" src="../public/flaming-swords/pack.png" alt="Flaming Swords">
+  <h3>Flaming Swords</h3>
+  <a class="download-btn" id="download-btn" href="https://modrinth.com/resourcepack/flaming-swords" target="_blank">Download</a>
+</div>
 
 <center>
 
