@@ -195,3 +195,7 @@
 .project-sidebar .download-btn:hover {
   background: var(--vp-c-brand-1);
 }
+
+.VPFeature .VPImage {
+  border-radius: 8px;
+}
