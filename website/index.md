@@ -26,25 +26,39 @@ features:
     title: Flaming Swords
     details: Makes the Fire Aspect Enchantment show flames
     link: /projects/flaming-swords
-  - title: Shulker UI
+  - icon:
+      src: /shulker-ui/pack.png
+    title: Shulker UI
     details: Makes the Shulker Box UI look nicer
     link: /projects/shulker-ui
-  - title: Mr_Expence's PvP Overlay
+  - icon:
+      src: /mr_expences-pvp-overlay/pack.png
+    title: Mr_Expence's PvP Overlay
     details: My custom vanilla Pvp Overlay for Minecraft with blue cobwebs and other features
     link: /projects/mr_expences-pvp-overlay
-  - title: Bare Bones Buttons
+  - icon:
+      src: /bare-bones-buttons/pack.png
+    title: Bare Bones Buttons
     details: Add the Bare Bone Buttons to the game and nothing else
     link: /projects/bare-bones-buttons
-  - title: Cosmetics+
+  - icon:
+      src: /cosmetics/pack.png
+    title: Cosmetics+
     details: Adds custom cosmetic models to the game
     link: /projects/cosmetics
-  - title: Alternate Effect Particles
+  - icon:
+      src: /alternate-effect-particles/pack.png
+    title: Alternate Effect Particles
     details: Custom Particles
     link: /projects/alternate-effect-particles
-  - title: Bare Bones Crossless Lamps
+  - icon:
+      src: /bare-bone-crossless-lamps/bare-bone-crossless-lamps.png
+    title: Bare Bones Crossless Lamps
     details: Makes Crossless Lamps compatible with Bare Bones
     link: /projects/bare-bone-crossless-lamps
-  - title: Resource Pack Creation Guide
+  - icon:
+      src: /mclogo.png
+    title: Resource Pack Creation Guide
     details: A guide to creating resource packs
     link: /guide/intro
 ---
