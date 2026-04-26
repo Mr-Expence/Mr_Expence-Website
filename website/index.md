@@ -15,10 +15,10 @@ hero:
       link: /guide/intro
     - theme: brand
       text: Projects
-      link: /projects
+      link: /projectsrd
     - theme: alt
       text: Socials
-      link: https://mr-expence.github.io/socials
+      link: /socialsrd
 
 features:
   - title: Flaming Swords
