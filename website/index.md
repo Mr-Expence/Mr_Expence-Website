@@ -21,7 +21,9 @@ hero:
       link: /socialsrd
 
 features:
-  - title: Flaming Swords
+  - icon:
+      src: /flaming-swords/pack.png
+    title: Flaming Swords
     details: Makes the Fire Aspect Enchantment show flames
     link: /projects/flaming-swords
   - title: Shulker UI
