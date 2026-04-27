@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Mr_Expence"
-  text: ""
+  text: "I code for fun"
   tagline: 
   image:
     src: /logo.png
