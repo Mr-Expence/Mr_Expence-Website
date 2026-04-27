@@ -21,7 +21,7 @@ export default defineConfig({
             link: "/projects/mr_expences-pvp-overlay",
           },
           { text: "Bare Bones Buttons", link: "/projects/bare-bones-buttons" },
-          { text: "Cosmetics+", link: "/projects/cosmetics" },
+          { text: "Cosmetics+", link: "/projects/cosmetics+" },
           {
             text: "Alternate Effect Particles",
             link: "/projects/alternate-effect-particles",

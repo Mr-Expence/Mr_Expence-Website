@@ -45,7 +45,7 @@ features:
       src: /cosmetics/pack.png
     title: Cosmetics+
     details: Adds custom cosmetic models to the game
-    link: /projects/cosmetics
+    link: /projects/cosmetics+
   - icon:
       src: /alternate-effect-particles/pack.png
     title: Alternate Effect Particles
