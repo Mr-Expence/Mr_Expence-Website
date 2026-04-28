@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "Mr_Expence"
-  text: "I code for fun"
-  tagline: 
+  text: "MrExpence12"
+  tagline: Zac
   image:
     src: /logo.png
     alt: Mr_Expence
