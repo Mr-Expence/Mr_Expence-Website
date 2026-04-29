@@ -1,0 +1,649 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- This meta tag is critical for mobile — it prevents the phone from zooming out -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <title>GrindSet</title>
+
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://mr-expence.github.io/grindset-logo.png"
+    />
+    <!-- iPhone retina (most modern iPhones) -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://mr-expence.github.io/grindset-logo-180.png"
+    />
+
+    <!-- iPad retina -->
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="https://mr-expence.github.io/grindset-logo-152.png"
+    />
+
+    <!-- iPhone non-retina (very old devices) -->
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="https://mr-expence.github.io/grindset-logo-120.png"
+    />
+
+    <!-- PWA meta tags — these tell iOS to treat this as a standalone app -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="apple-mobile-web-app-title" content="GrindSet" />
+    <meta
+      name="theme-color"
+      content="#ffffff"
+      media="(prefers-color-scheme: light)"
+    />
+    <meta
+      name="theme-color"
+      content="#000000"
+      media="(prefers-color-scheme: dark)"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* ─── RESET & BASE ─────────────────────────────────── */
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      :root {
+        --bg: #ffffff; /* Apple's standard white background */
+        --surface: #f2f2f7; /* Apple's system grouped background — the slightly grey card colour */
+        --border: #d1d1d6; /* Apple's separator colour */
+        --accent: #c8ff00; /* Keep your lime — it works on both themes */
+        --text: #000000; /* Pure black text on white, just like iOS */
+        --muted: #8e8e93; /* Apple's exact secondary label colour */
+        --danger: #ff3b30; /* Apple's system red */
+        --font-display: "Bebas Neue", sans-serif;
+        --font-body: "DM Sans", sans-serif;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #000000; /* Apple uses true black on OLED iPhones in dark mode */
+          --surface: #1c1c1e; /* Apple's elevated surface colour in dark mode */
+          --border: #38383a; /* Apple's dark mode separator */
+          --text: #ffffff;
+          --muted: #8e8e93; /* This one actually stays the same in Apple's system */
+        }
+      }
+
+      html,
+      body {
+        height: 100%;
+        background: var(--bg);
+        color: var(--text);
+        font-family: var(--font-body);
+        overflow: hidden; /* no scroll — everything fits the viewport */
+        -webkit-tap-highlight-color: transparent;
+      }
+
+      /* ─── APP SHELL ────────────────────────────────────── */
+      #app {
+        height: 100dvh; /* dvh = dynamic viewport height — handles iOS chrome */
+        display: flex;
+        flex-direction: column;
+        position: relative;
+      }
+
+      /* ─── SCREENS ──────────────────────────────────────── */
+      /* Each screen is absolutely positioned and transitions in/out */
+      .screen {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        padding: 48px 28px 40px;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(20px);
+        transition:
+          opacity 0.35s ease,
+          transform 0.35s ease;
+      }
+      .screen.active {
+        opacity: 1;
+        pointer-events: all;
+        transform: translateY(0);
+      }
+
+      /* ─── HOME SCREEN ──────────────────────────────────── */
+      #home {
+        justify-content: space-between;
+      }
+
+      .home-header {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .tagline {
+        font-size: 13px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--accent);
+        margin-bottom: 16px;
+      }
+
+      .app-title {
+        font-family: var(--font-display);
+        font-size: clamp(72px, 22vw, 120px);
+        line-height: 0.9;
+        color: var(--text);
+      }
+
+      .app-title span {
+        color: var(--accent);
+      }
+
+      .subtitle {
+        margin-top: 24px;
+        color: var(--muted);
+        font-size: 15px;
+        line-height: 1.6;
+        max-width: 280px;
+      }
+
+      /* Decorative grid lines in background */
+      .home-deco {
+        position: absolute;
+        inset: 0;
+        background-image:
+          linear-gradient(var(--border) 1px, transparent 1px),
+          linear-gradient(90deg, var(--border) 1px, transparent 1px);
+        background-size: 40px 40px;
+        mask-image: radial-gradient(
+          ellipse at 80% 20%,
+          black 0%,
+          transparent 60%
+        );
+        -webkit-mask-image: radial-gradient(
+          ellipse at 80% 20%,
+          black 0%,
+          transparent 60%
+        );
+        pointer-events: none;
+      }
+
+      /* ─── WORKOUT SCREEN ───────────────────────────────── */
+      #workout {
+        justify-content: space-between;
+      }
+
+      .workout-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .workout-label {
+        font-size: 11px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--muted);
+      }
+
+      .workout-counter {
+        font-size: 13px;
+        color: var(--muted);
+      }
+
+      /* Progress bar — thin strip at top showing how far through we are */
+      .progress-bar {
+        width: 100%;
+        height: 2px;
+        background: var(--border);
+        border-radius: 2px;
+        margin-top: 12px;
+        overflow: hidden;
+      }
+      .progress-fill {
+        height: 100%;
+        background: var(--accent);
+        border-radius: 2px;
+        transition: width 0.4s ease;
+      }
+
+      /* The main exercise card — takes up most of the screen */
+      .exercise-card {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 24px 0;
+      }
+
+      .exercise-type-badge {
+        font-size: 11px;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: var(--accent);
+        background: rgba(200, 255, 0, 0.08);
+        border: 1px solid rgba(200, 255, 0, 0.2);
+        border-radius: 4px;
+        padding: 4px 10px;
+        margin-bottom: 24px;
+      }
+
+      .exercise-name {
+        font-family: var(--font-display);
+        font-size: clamp(44px, 13vw, 72px);
+        line-height: 1;
+        color: var(--text);
+        margin-bottom: 32px;
+        /* animate name change */
+        transition: opacity 0.2s ease;
+      }
+
+      .reps-block {
+        display: flex;
+        align-items: baseline;
+        gap: 12px;
+      }
+
+      .reps-number {
+        font-family: var(--font-display);
+        /* Huge number — the focal point of the whole screen */
+        font-size: clamp(88px, 26vw, 140px);
+        line-height: 1;
+        color: var(--accent);
+        /* Subtle glow on the accent number */
+        text-shadow: 0 0 60px rgba(200, 255, 0, 0.3);
+        transition: opacity 0.2s ease;
+      }
+
+      .reps-unit {
+        font-size: 20px;
+        color: var(--muted);
+        font-weight: 300;
+        padding-bottom: 8px;
+      }
+
+      /* ─── DONE SCREEN ──────────────────────────────────── */
+      #done {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 16px;
+      }
+
+      .done-icon {
+        font-size: 64px;
+        margin-bottom: 8px;
+      }
+
+      .done-title {
+        font-family: var(--font-display);
+        font-size: 56px;
+        color: var(--accent);
+      }
+
+      .done-subtitle {
+        color: var(--muted);
+        font-size: 15px;
+        margin-bottom: 16px;
+      }
+
+      /* ─── BUTTONS ──────────────────────────────────────── */
+      .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+        padding: 20px;
+        border: none;
+        border-radius: 14px;
+        font-family: var(--font-body);
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        transition:
+          transform 0.15s ease,
+          opacity 0.15s ease;
+        -webkit-user-select: none;
+        user-select: none;
+      }
+      .btn:active {
+        transform: scale(0.97);
+        opacity: 0.85;
+      }
+
+      .btn-primary {
+        background: var(--accent);
+        color: #0a0a0a; /* ← this is hardcoded dark, not a variable */
+      }
+
+      .btn-ghost {
+        background: var(--surface);
+        color: var(--text);
+        border: 1px solid var(--border);
+      }
+
+      .btn-icon {
+        font-size: 20px;
+      }
+
+      /* Arrow for Next button */
+      .btn-arrow {
+        margin-left: auto;
+        font-size: 20px;
+      }
+
+      /* ─── WORKOUT SUMMARY (Done screen list) ───────────── */
+      .summary-list {
+        width: 100%;
+        max-height: 35vh;
+        overflow-y: auto;
+        margin: 8px 0 24px;
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        /* Hide scrollbar visually but keep functionality */
+        scrollbar-width: none;
+      }
+      .summary-list::-webkit-scrollbar {
+        display: none;
+      }
+
+      .summary-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 14px 18px;
+        border-bottom: 1px solid var(--border);
+        font-size: 14px;
+      }
+      .summary-item:last-child {
+        border-bottom: none;
+      }
+      .summary-item-name {
+        color: var(--text);
+      }
+      .summary-item-reps {
+        font-family: var(--font-display);
+        font-size: 20px;
+        color: var(--accent);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <!-- ── HOME SCREEN ─────────────────────────────────── -->
+      <div id="home" class="screen active">
+        <div class="home-deco"></div>
+
+        <div class="home-header">
+          <p class="tagline">Daily Workout Generator</p>
+          <h1 class="app-title">GRIND<span>SET</span></h1>
+          <p class="subtitle">
+            A fresh 1000-point workout, randomly generated from 26 bodyweight
+            exercises.
+          </p>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 12px">
+          <button class="btn btn-primary" onclick="generateWorkout()">
+            <span class="btn-icon">⚡</span>
+            Generate Workout
+          </button>
+        </div>
+      </div>
+
+      <!-- ── WORKOUT SCREEN ──────────────────────────────── -->
+      <div id="workout" class="screen">
+        <div>
+          <div class="workout-header">
+            <span class="workout-label">Exercise</span>
+            <span class="workout-counter" id="counter">1 / 10</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-fill" id="progress" style="width: 0%"></div>
+          </div>
+        </div>
+
+        <div class="exercise-card">
+          <div class="exercise-type-badge" id="badge">Bodyweight</div>
+          <div class="exercise-name" id="exName">Push Ups</div>
+          <div class="reps-block">
+            <div class="reps-number" id="exReps">20</div>
+            <div class="reps-unit" id="exUnit">reps</div>
+          </div>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 12px">
+          <button class="btn btn-primary" onclick="nextExercise()" id="nextBtn">
+            Next Exercise
+            <span class="btn-arrow">→</span>
+          </button>
+          <button class="btn btn-ghost" onclick="goHome()">✕ Cancel</button>
+        </div>
+      </div>
+
+      <!-- ── DONE SCREEN ─────────────────────────────────── -->
+      <div id="done" class="screen">
+        <div class="done-icon">🔥</div>
+        <div class="done-title">DONE.</div>
+        <p class="done-subtitle">Here's what you completed:</p>
+        <div class="summary-list" id="summaryList"></div>
+        <button
+          class="btn btn-primary"
+          onclick="generateWorkout()"
+          style="width: 100%"
+        >
+          <span class="btn-icon">⚡</span>
+          Generate Again
+        </button>
+        <button
+          class="btn btn-ghost"
+          onclick="goHome()"
+          style="width: 100%; margin-top: 10px"
+        >
+          Home
+        </button>
+      </div>
+    </div>
+
+    <script>
+      // ─── WORKOUT DATA ──────────────────────────────────────────────────────────
+      // This mirrors your Python workouts dict exactly.
+      // The value represents "points per rep" — higher = harder exercise = fewer reps.
+      const workouts = {
+        "Jumping Jacks": 1,
+        Crunches: 2,
+        "Tricep Dips": 5,
+        Squats: 6.6666666667,
+        Lunges: 5,
+        "Russian Twists": 1.4285714286,
+        "Standing Calf Raises": 5,
+        "Push Ups": 20,
+        Plank: 3.3333333333,
+        "Lunge Split Jumps": 10,
+        "Vertical Leg Crunches": 2,
+        "Sit Ups": 5,
+        "Leg Lifts": 6.6666666667,
+        Bicycles: 2,
+        "Wall Push Ups": 6.6666666667,
+        "Bird Dogs": 3.3333333333,
+        "Oblique Crunches": 10,
+        "Side Plank": 6.6666666667,
+        "Jump Squats": 20,
+        "High Knees": 2.5,
+        "Incline Push Ups": 6.6666666667,
+        "Butt Kickers": 3.3333333333,
+        "Jack Knife Sit Ups": 6.6666666667,
+        "Downward Dog": 1,
+        "Inner Thigh Lifts": 5,
+        Superman: 3.3333333333,
+      };
+
+      // Exercises that are held for time rather than counted as reps
+      // These use "sec" as the unit instead of "reps"
+      const timedExercises = new Set([
+        "Plank",
+        "Side Plank",
+        "Downward Dog",
+        "Superman",
+      ]);
+
+      // ─── WORKOUT GENERATION ────────────────────────────────────────────────────
+      // This is a direct port of your Python get_workouts() function.
+      function generateWorkoutData() {
+        let tempTotal = 1000;
+        // Spread operator creates a shallow copy — same idea as workouts.copy() in Python
+        let available = { ...workouts };
+        const result = []; // list of { name, reps } objects
+
+        while (tempTotal > 0) {
+          const names = Object.keys(available);
+          if (names.length === 0) break;
+
+          // random.randrange(80, 120, 5) in Python picks from [80, 85, 90, ..., 115]
+          // We replicate that: floor(random * 8) gives 0-7, * 5 gives 0,5,...35, + 80 gives 80-115
+          const randomAmount = 80 + Math.floor(Math.random() * 8) * 5;
+
+          // Pick a random exercise name from what's still available
+          const name = names[Math.floor(Math.random() * names.length)];
+          const value = available[name];
+
+          // Same formula as Python: round(random_amount / value)
+          const reps = Math.round(randomAmount / value);
+
+          result.push({ name, reps });
+
+          tempTotal -= randomAmount;
+
+          // Remove this exercise so it can't be picked again — same as del default_workouts[name]
+          delete available[name];
+        }
+
+        return result;
+      }
+
+      // ─── APP STATE ─────────────────────────────────────────────────────────────
+      let exercises = []; // the generated workout for this session
+      let currentIndex = 0; // which exercise we're currently showing
+
+      // ─── SCREEN TRANSITIONS ────────────────────────────────────────────────────
+      // Shows one screen and hides all others by toggling the .active CSS class
+      function showScreen(id) {
+        document
+          .querySelectorAll(".screen")
+          .forEach((s) => s.classList.remove("active"));
+        document.getElementById(id).classList.add("active");
+      }
+
+      function goHome() {
+        showScreen("home");
+      }
+
+      // ─── GENERATE & START ──────────────────────────────────────────────────────
+      function generateWorkout() {
+        exercises = generateWorkoutData();
+        currentIndex = 0;
+        showScreen("workout");
+        renderExercise();
+      }
+
+      // ─── RENDER CURRENT EXERCISE ───────────────────────────────────────────────
+      function renderExercise() {
+        const ex = exercises[currentIndex];
+        const total = exercises.length;
+
+        // Update counter text e.g. "3 / 11"
+        document.getElementById("counter").textContent =
+          `${currentIndex + 1} / ${total}`;
+
+        // Progress bar width as a percentage
+        document.getElementById("progress").style.width =
+          `${((currentIndex + 1) / total) * 100}%`;
+
+        // Fade out → update → fade in for a smooth name/number transition
+        const nameEl = document.getElementById("exName");
+        const repsEl = document.getElementById("exReps");
+        nameEl.style.opacity = "0";
+        repsEl.style.opacity = "0";
+
+        setTimeout(() => {
+          nameEl.textContent = ex.name;
+          repsEl.textContent = ex.reps;
+
+          // Switch unit label based on whether it's a timed or counted exercise
+          const isTimed = timedExercises.has(ex.name);
+          document.getElementById("exUnit").textContent = isTimed
+            ? "sec"
+            : "reps";
+          document.getElementById("badge").textContent = isTimed
+            ? "Hold"
+            : "Bodyweight";
+
+          nameEl.style.opacity = "1";
+          repsEl.style.opacity = "1";
+        }, 180);
+
+        // Change Next button to "Finish" on the last exercise
+        const nextBtn = document.getElementById("nextBtn");
+        if (currentIndex === total - 1) {
+          nextBtn.innerHTML = 'Finish Workout <span class="btn-arrow">✓</span>';
+        } else {
+          nextBtn.innerHTML = 'Next Exercise <span class="btn-arrow">→</span>';
+        }
+      }
+
+      // ─── ADVANCE TO NEXT EXERCISE ──────────────────────────────────────────────
+      function nextExercise() {
+        if (currentIndex < exercises.length - 1) {
+          currentIndex++;
+          renderExercise();
+        } else {
+          // We've reached the end — show the summary screen
+          showDoneScreen();
+        }
+      }
+
+      // ─── DONE SCREEN ───────────────────────────────────────────────────────────
+      function showDoneScreen() {
+        // Build the summary list from all completed exercises
+        const list = document.getElementById("summaryList");
+        list.innerHTML = exercises
+          .map((ex) => {
+            const unit = timedExercises.has(ex.name) ? "sec" : "reps";
+            return `
+        <div class="summary-item">
+          <span class="summary-item-name">${ex.name}</span>
+          <span class="summary-item-reps">${ex.reps} <small style="font-size:12px;color:#555">${unit}</small></span>
+        </div>
+      `;
+          })
+          .join("");
+
+        showScreen("done");
+      }
+    </script>
+  </body>
+</html>
