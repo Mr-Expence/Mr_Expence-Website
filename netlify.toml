@@ -1,12 +1,12 @@
 [build]
-  # We explicitly run npm install first to be safe,
-  # then use npx to invoke vitepress — npx runs it through
-  # Node directly, bypassing the Linux execute-permission issue
-  # that was causing "Permission denied" on the binary file.
-  command = "npm install && npx vitepress build website"
+  # Instead of asking the OS to execute the vitepress binary (which fails
+  # due to missing execute permissions on Netlify's Linux environment),
+  # we call Node.js directly and point it at the VitePress CLI entry point.
+  # This is equivalent to running "vitepress build website" but bypasses
+  # the filesystem permission check entirely.
+  command = "node ./node_modules/vitepress/bin/vitepress.js build website"
 
-  # Your VitePress source is in the "website" folder, so
-  # the compiled output lands here:
+  # VitePress compiles your "website" source folder and outputs here:
   publish = "website/.vitepress/dist"
 
 [build.environment]
