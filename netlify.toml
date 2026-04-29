@@ -1,0 +1,24 @@
+# netlify.toml
+# Netlify reads this file automatically — it overrides anything set in the UI,
+# so your deployment config travels with your code.
+
+[build]
+  # This is the npm script from your package.json that runs:
+  # "vitepress build website"
+  command = "npm run docs:build"
+
+  # VitePress outputs to a .vitepress/dist folder INSIDE whichever
+  # source directory you told it to build — in your case, "website".
+  # So the finished files end up here:
+  publish = "website/.vitepress/dist"
+
+[build.environment]
+  # Pin Node to version 20 — VitePress needs Node 18+ and Netlify's
+  # default can be older, causing mysterious failures.
+  NODE_VERSION = "20"
+
+  # This is the key fix for Problem 1.
+  # By overriding NODE_ENV to "development", we tell npm to install
+  # ALL dependencies including devDependencies — which is where
+  # VitePress lives. Without this, Netlify silently skips it.
+  NODE_ENV = "development"
