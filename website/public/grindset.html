@@ -8,9 +8,25 @@
       content="width=device-width, initial-scale=1.0, user-scalable=no"
     />
     <title>GrindSet</title>
+    <!-- iPhone retina (most modern iPhones) -->
     <link
       rel="apple-touch-icon"
-      href="https://mr-expence.github.io/grindset-logo.png"
+      sizes="180x180"
+      href="https://mr-expence.github.io/grindset-logo-180.png"
+    />
+
+    <!-- iPad retina -->
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="https://mr-expence.github.io/grindset-logo-152.png"
+    />
+
+    <!-- iPhone non-retina (very old devices) -->
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="https://mr-expence.github.io/grindset-logo-120.png"
     />
 
     <!-- PWA meta tags — these tell iOS to treat this as a standalone app -->
@@ -20,7 +36,16 @@
       content="black-translucent"
     />
     <meta name="apple-mobile-web-app-title" content="GrindSet" />
-    <meta name="theme-color" content="#0a0a0a" />
+    <meta
+      name="theme-color"
+      content="#ffffff"
+      media="(prefers-color-scheme: light)"
+    />
+    <meta
+      name="theme-color"
+      content="#000000"
+      media="(prefers-color-scheme: dark)"
+    />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
@@ -39,15 +64,25 @@
       }
 
       :root {
-        --bg: #0a0a0a;
-        --surface: #141414;
-        --border: #222;
-        --accent: #c8ff00; /* electric lime — the one colour that pops */
-        --text: #f0f0f0;
-        --muted: #555;
-        --danger: #ff4545;
+        --bg: #ffffff; /* Apple's standard white background */
+        --surface: #f2f2f7; /* Apple's system grouped background — the slightly grey card colour */
+        --border: #d1d1d6; /* Apple's separator colour */
+        --accent: #c8ff00; /* Keep your lime — it works on both themes */
+        --text: #000000; /* Pure black text on white, just like iOS */
+        --muted: #8e8e93; /* Apple's exact secondary label colour */
+        --danger: #ff3b30; /* Apple's system red */
         --font-display: "Bebas Neue", sans-serif;
         --font-body: "DM Sans", sans-serif;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #000000; /* Apple uses true black on OLED iPhones in dark mode */
+          --surface: #1c1c1e; /* Apple's elevated surface colour in dark mode */
+          --border: #38383a; /* Apple's dark mode separator */
+          --text: #ffffff;
+          --muted: #8e8e93; /* This one actually stays the same in Apple's system */
+        }
       }
 
       html,
@@ -296,7 +331,7 @@
 
       .btn-primary {
         background: var(--accent);
-        color: #0a0a0a; /* dark text on lime — high contrast */
+        color: #0a0a0a; /* ← this is hardcoded dark, not a variable */
       }
 
       .btn-ghost {
