@@ -239,6 +239,7 @@
         padding: 24px 0;
       }
 
+      /* ─── EXERCISE TYPE BADGE ──────────────────────────── */
       .exercise-type-badge {
         font-size: 11px;
         letter-spacing: 0.15em;
@@ -249,6 +250,32 @@
         border-radius: 4px;
         padding: 4px 10px;
         margin-bottom: 24px;
+        /* Smoothly recolours as you move between exercise tiers */
+        transition:
+          color 0.2s ease,
+          background 0.2s ease,
+          border-color 0.2s ease;
+      }
+
+      /*
+        Stretch warm-up: cool blue — visually signals
+        "this is prep, not work yet"
+      */
+      .exercise-type-badge.stretch {
+        color: #00c8ff;
+        background: rgba(0, 200, 255, 0.08);
+        border-color: rgba(0, 200, 255, 0.2);
+      }
+
+      /*
+        Warm-up tier: keep the default lime but no extra class needed.
+        Moderate: same — lime is the neutral colour here.
+        Intense: red to communicate max effort.
+      */
+      .exercise-type-badge.intense {
+        color: var(--danger);
+        background: rgba(255, 59, 48, 0.08);
+        border-color: rgba(255, 59, 48, 0.2);
       }
 
       .exercise-name {
@@ -390,6 +417,13 @@
         font-size: 20px;
         color: var(--accent);
       }
+      /*
+        Stretch items in the summary get a subtle blue tint
+        so you can see at a glance where the warm-up ended.
+      */
+      .summary-item.is-stretch .summary-item-reps {
+        color: #00c8ff;
+      }
     </style>
   </head>
   <body>
@@ -502,6 +536,54 @@
         Superman: 3.3333333333,
       };
 
+      /*
+        Difficulty thresholds for the badge label.
+        These map the points-per-rep value to a human-readable tier:
+          ≤ 2.5  → Warm Up   (lime badge, default)
+          ≤ 7    → Moderate  (lime badge, default)
+          > 7    → Intense   (red badge, .intense class)
+        Stretches always get their own "Stretch" label and blue badge.
+      */
+      function getBadgeInfo(ex) {
+        if (ex.isStretch) {
+          return { label: "Stretch", cls: "stretch" };
+        }
+        const isTimed = timedExercises.has(ex.name);
+        if (isTimed) {
+          // Timed non-stretch exercises (Plank, Side Plank, etc.) sit in the
+          // moderate difficulty zone — no special colour needed.
+          return { label: "Hold", cls: "" };
+        }
+        const difficulty = workouts[ex.name];
+        if (difficulty > 7) {
+          return { label: "Intense", cls: "intense" };
+        }
+        if (difficulty > 2.5) {
+          return { label: "Moderate", cls: "" };
+        }
+        return { label: "Warm Up", cls: "" };
+      }
+
+      /*
+        Fixed warm-up stretches that are ALWAYS prepended to every workout,
+        in this exact order. They are timed (seconds) rather than counted.
+        isStretch:true is a custom flag we use to handle badge + summary styling.
+      */
+      const STRETCHES = [
+        { name: "Neck Rolls", reps: 20, isStretch: true },
+        { name: "Arm Circles", reps: 20, isStretch: true },
+        { name: "Hip Circles", reps: 20, isStretch: true },
+        { name: "Leg Swings", reps: 20, isStretch: true },
+        { name: "Standing Quad Stretch", reps: 30, isStretch: true },
+        { name: "Hip Flexor Stretch", reps: 30, isStretch: true },
+        { name: "Shoulder Stretch", reps: 20, isStretch: true },
+      ];
+
+      /*
+        Exercises whose value is measured in seconds rather than reps.
+        Stretch names are also added here so the "sec" unit is shown for them.
+      */
+
       // Exercises that are held for time rather than counted as reps
       // These use "sec" as the unit instead of "reps"
       const timedExercises = new Set([
@@ -509,6 +591,14 @@
         "Side Plank",
         "Downward Dog",
         "Superman",
+        // All stretches are timed holds:
+        "Neck Rolls",
+        "Arm Circles",
+        "Hip Circles",
+        "Leg Swings",
+        "Standing Quad Stretch",
+        "Hip Flexor Stretch",
+        "Shoulder Stretch",
       ]);
 
       // ─── WORKOUT GENERATION ────────────────────────────────────────────────────
@@ -517,7 +607,7 @@
         let tempTotal = 1000;
         // Spread operator creates a shallow copy — same idea as workouts.copy() in Python
         let available = { ...workouts };
-        const result = []; // list of { name, reps } objects
+        const result = [];
 
         while (tempTotal > 0) {
           const names = Object.keys(available);
@@ -542,12 +632,19 @@
           delete available[name];
         }
 
+        /*
+          Sort ascending by points-per-rep (the workout value).
+          Lower value = easier exercise, so it naturally floats to the top.
+          e.g. Jumping Jacks (1) → Russian Twists (1.43) → ... → Push Ups (20)
+        */
+        result.sort((a, b) => workouts[a.name] - workouts[b.name]);
+
         return result;
       }
 
       // ─── APP STATE ─────────────────────────────────────────────────────────────
-      let exercises = []; // the generated workout for this session
-      let currentIndex = 0; // which exercise we're currently showing
+      let exercises = [];
+      let currentIndex = 0;
 
       // ─── SCREEN TRANSITIONS ────────────────────────────────────────────────────
       // Shows one screen and hides all others by toggling the .active CSS class
@@ -564,7 +661,14 @@
 
       // ─── GENERATE & START ──────────────────────────────────────────────────────
       function generateWorkout() {
-        exercises = generateWorkoutData();
+        /*
+          Build the full exercise list:
+            1. Spread a fresh copy of STRETCHES (so the originals aren't mutated)
+            2. Append the generated + sorted bodyweight exercises
+          The result is: [stretch, stretch, ..., easy, moderate, ..., intense]
+        */
+        const bodywork = generateWorkoutData();
+        exercises = [...STRETCHES.map((s) => ({ ...s })), ...bodywork];
         currentIndex = 0;
         showScreen("workout");
         renderExercise();
@@ -598,9 +702,13 @@
           document.getElementById("exUnit").textContent = isTimed
             ? "sec"
             : "reps";
-          document.getElementById("badge").textContent = isTimed
-            ? "Hold"
-            : "Bodyweight";
+
+          // Apply the badge label and colour class
+          const badge = document.getElementById("badge");
+          const { label, cls } = getBadgeInfo(ex);
+          badge.textContent = label;
+          // Clear any previous tier class before adding the new one
+          badge.className = "exercise-type-badge" + (cls ? " " + cls : "");
 
           nameEl.style.opacity = "1";
           repsEl.style.opacity = "1";
@@ -633,8 +741,10 @@
         list.innerHTML = exercises
           .map((ex) => {
             const unit = timedExercises.has(ex.name) ? "sec" : "reps";
+            // Add is-stretch class so stretch rows get the blue rep colour
+            const cls = ex.isStretch ? " is-stretch" : "";
             return `
-        <div class="summary-item">
+              <div class="summary-item${cls}">
           <span class="summary-item-name">${ex.name}</span>
           <span class="summary-item-reps">${ex.reps} <small style="font-size:12px;color:#555">${unit}</small></span>
         </div>
