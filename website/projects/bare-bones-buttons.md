@@ -6,12 +6,6 @@ next: false
 title: Bare Bones Buttons
 ---
 
-<div class="project-sidebar">
-  <img class="icon" src="../public/bare-bones-buttons/pack.png" alt="Bare Bones Buttons">
-  <h3>Bare Bones Buttons</h3>
-  <a class="download-btn" id="download-btn" href="https://modrinth.com/resourcepack/bare-bones-buttons" target="_blank">Download</a>
-</div>
-
 <center>
 
 <!-- Logo -->

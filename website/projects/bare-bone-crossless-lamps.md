@@ -6,12 +6,6 @@ next: false
 title: Bare Bones Crossless Lamps
 ---
 
-<div class="project-sidebar">
-  <img class="icon" src="../public/bare-bone-crossless-lamps/bare-bone-crossless-lamps.png" alt="Bare Bones Crossless Lamps">
-  <h3>Bare Bones Crossless Lamps</h3>
-  <a class="download-btn" id="download-btn" href="https://cdn.discordapp.com/attachments/1426017569394917446/1486247129939841024/Bare_Bones_Crossless_Lamps.zip?ex=69ee5640&is=69ed04c0&hm=7e6a8544c5a70f632a2d8bb7a12dbae7b743cbfe86d319a386df035ffd3f896d&" target="_blank">Download</a>
-</div>
-
 <center>
 
 <img src="../public/bare-bone-crossless-lamps/bare-bone-crossless-lamps-logo.png" width="600" alt="Logo"><br><br>

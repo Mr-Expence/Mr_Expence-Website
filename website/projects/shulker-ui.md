@@ -6,12 +6,6 @@ next: false
 title: Shulker UI
 ---
 
-<div class="project-sidebar">
-  <img class="icon" src="../public/shulker-ui/pack.png" alt="Shulker UI">
-  <h3>Shulker UI</h3>
-  <a class="download-btn" id="download-btn" href="https://modrinth.com/resourcepack/shulker-ui" target="_blank">Download</a>
-</div>
-
 <center>
 
 <!-- Logo -->

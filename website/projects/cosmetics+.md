@@ -6,12 +6,6 @@ next: false
 title: Cosmetics+
 ---
 
-<div class="project-sidebar">
-  <img class="icon" src="../public/cosmetics/pack.png" alt="Cosmetics+">
-  <h3>Cosmetics+</h3>
-  <a class="download-btn" id="download-btn" href="https://modrinth.com/resourcepack/cosmetics+" target="_blank">Download</a>
-</div>
-
 <center>
 
 <img src="../public/cosmetics/thumbnail.png" width="700" alt="Cosmetics+ Logo"><br>

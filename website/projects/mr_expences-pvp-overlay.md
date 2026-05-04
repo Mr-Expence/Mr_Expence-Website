@@ -6,12 +6,6 @@ next: false
 title: Mr_Expence's PvP Overlay
 ---
 
-<div class="project-sidebar">
-  <img class="icon" src="../public/mr_expences-pvp-overlay/pack.png" alt="Mr_Expence's PvP Overlay">
-  <h3>Mr_Expence's PvP Overlay</h3>
-  <a class="download-btn" id="download-btn" href="https://modrinth.com/resourcepack/mr_expences-pvp-overlay" target="_blank">Download</a>
-</div>
-
 <center>
 
 <img src="../public/mr_expences-pvp-overlay/logo.png" width="700" alt="Mr_Expence's PvP Overlay Logo"><br>
